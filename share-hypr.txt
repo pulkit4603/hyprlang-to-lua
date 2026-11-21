@@ -1,0 +1,8 @@
+hyprland.lua
+hyprlock.conf
+lockdead.png
+lockdead2.png
+stubs
+wall0.png
+wall1.png
+wall2.png
