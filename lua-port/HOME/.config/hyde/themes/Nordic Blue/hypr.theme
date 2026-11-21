@@ -1,0 +1,51 @@
+$HOME/.config/hypr/themes/theme.lua|> $HOME/.config/hypr/themes/colors.lua
+-- HyDE theme: Nordic Blue
+-- Lua port (Hyprland 0.56+). Deployed by HyDE to ~/.config/hypr/themes/*.lua.
+local hyde = require("conf.hyde")
+--  ___________      _________                        __
+--  \__    ___/      \_   ___ \_______ ___.__._______/  |_
+--   |    |  ______ /    \  \/\_  __ <   |  |\____ \   __\
+--   |    | /_____/ \     \____|  | \/\___  ||  |_> >  |
+--   |____|          \______  /|__|   / ____||   __/|__|
+--                          \/        \/     |__|
+hyde.gsettings("gsettings set org.gnome.desktop.interface icon-theme 'Nordzy'")
+hyde.gsettings("gsettings set org.gnome.desktop.interface gtk-theme 'Nordic-Blue'")
+hyde.gsettings("gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'")
+
+hl.config({
+    general = {
+        gaps_in = 3,
+        gaps_out = 8,
+        border_size = 2,
+        col = {
+            active_border = { colors = { "rgba(5A9ACAB4)", "rgba(ECD3A0FF)" }, angle = 45 },
+            inactive_border = { colors = { "rgba(1E8B50D9)", "rgba(32B032D9)" }, angle = 45 },
+        },
+        layout = "dwindle",
+        resize_on_border = true,
+    },
+    group = {
+        col = {
+            border_active = { colors = { "rgba(5A9ACAB4)", "rgba(ECD3A0FF)" }, angle = 45 },
+            border_inactive = { colors = { "rgba(1E8B50D9)", "rgba(32B032D9)" }, angle = 45 },
+            border_locked_active = { colors = { "rgba(5A9ACAB4)", "rgba(ECD3A0FF)" }, angle = 45 },
+            border_locked_inactive = { colors = { "rgba(1E8B50D9)", "rgba(32B032D9)" }, angle = 45 },
+        },
+    },
+    decoration = {
+        rounding = 7,
+        shadow = {
+            enabled = false, -- was: drop_shadow = false
+        },
+        blur = {
+            enabled = true,
+            size = 5,
+            passes = 3,
+            new_optimizations = true,
+            ignore_opacity = true,
+            xray = false,
+        },
+    },
+})
+
+hl.layer_rule({ match = { namespace = "waybar" }, blur = true }) -- was: blurls = waybar
