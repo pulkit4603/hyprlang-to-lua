@@ -1,0 +1,4718 @@
+ .
+├── 󱁻 hyde.conf
+├──  themes
+│   ├──  'Catppuccin Latte'
+│   ├──  'Catppuccin Mocha'
+│   │   ├──  hypr.theme
+│   │   ├──  kitty.theme
+│   │   ├──  kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Catppuccin Mocha/wallpapers'/boat_abondoned.jpg
+│   │   ├──  wallpapers
+│   │   │   ├──  '1 rain_world.png'
+│   │   │   ├──  '2 rain_world.png'
+│   │   │   ├──  '3 rain_world.png'
+│   │   │   ├──  aesthetic_deer.png
+│   │   │   ├──  apex_octane.jpg
+│   │   │   ├──  black_hole_by_kurzgesagt.png
+│   │   │   ├──  boat_abondoned.jpg
+│   │   │   ├──  cat_leaves.png
+│   │   │   ├──  escape_velocity.jpg
+│   │   │   ├──  evening_sky.png
+│   │   │   ├──  firewatch.jpg
+│   │   │   ├──  forest_dark_winter.jpg
+│   │   │   ├──  hanged_man_tree.jpg
+│   │   │   ├──  rebellious_tower.png
+│   │   │   └──  switch_swirl.jpg
+│   │   └──  waybar.theme
+│   ├──  'Decay Green'
+│   │   ├──  hypr.theme
+│   │   ├──  kitty.theme
+│   │   ├──  kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Decay Green/wallpapers'/solaroid.jpg
+│   │   ├──  wallpapers
+│   │   │   ├──  arcade_decay_red.png
+│   │   │   ├──  aurora_borealis.png
+│   │   │   ├──  blue_swirl.png
+│   │   │   ├──  moments_before_desk.png
+│   │   │   ├──  night_city.png
+│   │   │   ├──  relaxed_mario.png
+│   │   │   └──  solaroid.jpg
+│   │   └──  waybar.theme
+│   ├──  'Edge Runner'
+│   │   ├──  hypr.theme
+│   │   ├──  kitty.theme
+│   │   ├──  kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Edge Runner/wallpapers'/lucy_rebecca.jpg
+│   │   ├──  wallpapers
+│   │   │   ├──  cyberpunk_dave.png
+│   │   │   ├──  david.jpg
+│   │   │   ├──  lucy_1.jpg
+│   │   │   ├──  lucy_2.png
+│   │   │   └──  lucy_rebecca.jpg
+│   │   └──  waybar.theme
+│   ├──  'Frosted Glass'
+│   │   ├──  hypr.theme
+│   │   ├──  kitty.theme
+│   │   ├──  kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Frosted Glass/wallpapers'/lake_mountain.jpg
+│   │   ├──  wallpapers
+│   │   │   ├──  blue_desert.png
+│   │   │   ├──  cloudy_crescent.png
+│   │   │   ├──  cloudy_mountain.png
+│   │   │   ├──  lake_mountain.jpg
+│   │   │   ├──  min_forest.jpg
+│   │   │   └──  teal_mountain.png
+│   │   └──  waybar.theme
+│   ├──  'Graphite Mono'
+│   ├──  'Gray Biker'
+│   │   ├──  backup-kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  hypr.theme
+│   │   ├── 󱁻 kitty.conf
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Gray Biker/wallpapers'/ten.jpg
+│   │   ├──  wallpapers
+│   │   │   ├──  eight.jpg
+│   │   │   ├──  eleven.jpg
+│   │   │   ├──  five.jpg
+│   │   │   ├──  four.jpg
+│   │   │   ├──  nine.jpg
+│   │   │   ├──  one.jpg
+│   │   │   ├──  seven.jpg
+│   │   │   ├──  six.jpg
+│   │   │   ├──  ten.jpg
+│   │   │   ├──  three.jpg
+│   │   │   └──  two.jpg
+│   │   └──  waybar.theme
+│   ├──  'Gruvbox Retro'
+│   ├──  'Material Sakura'
+│   │   ├──  hypr.theme
+│   │   ├──  kitty.theme
+│   │   ├──  kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Material Sakura/wallpapers'/material_pastel_8.jpg
+│   │   ├──  wallpapers
+│   │   │   ├──  material_pastel_1.jpg
+│   │   │   ├──  material_pastel_2.jpg
+│   │   │   ├──  material_pastel_3.jpg
+│   │   │   ├──  material_pastel_4.jpg
+│   │   │   ├──  material_pastel_5.jpg
+│   │   │   ├──  material_pastel_6.jpg
+│   │   │   ├──  material_pastel_7.jpg
+│   │   │   └──  material_pastel_8.jpg
+│   │   └──  waybar.theme
+│   ├──  'Nordic Blue'
+│   │   ├──  hypr.theme
+│   │   ├──  kitty.theme
+│   │   ├──  kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Nordic Blue/wallpapers'/wild.png
+│   │   ├──  wallpapers
+│   │   │   ├──  forest.jpg
+│   │   │   ├──  mountains.jpg
+│   │   │   ├──  Nordic-Heroin.png
+│   │   │   ├──  range.png
+│   │   │   ├──  sunset.jpg
+│   │   │   ├──  underwater.png
+│   │   │   └──  wild.png
+│   │   └──  waybar.theme
+│   ├──  'Rosé Pine'
+│   ├──  'Rule One'
+│   │   ├──  hypr-theme.back
+│   │   ├──  hypr.theme
+│   │   ├── 󱁻 kitty.conf
+│   │   ├──  kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Rule One/wallpapers'/solaroid.jpg
+│   │   ├──  wallpapers
+│   │   │   ├──  cat.png
+│   │   │   ├──  chaand.png
+│   │   │   ├──  consumerism.jpg.xmp
+│   │   │   ├──  cyber_asian_girl.png
+│   │   │   ├──  cyber_asian_girl.png.xmp
+│   │   │   ├──  fight_hub.jpg.xmp
+│   │   │   ├──  finalizer.png
+│   │   │   ├──  finalizer.png.xmp
+│   │   │   ├──  fuck_the_nerves.png
+│   │   │   ├──  get_on_my_level.jpg
+│   │   │   ├──  get_on_my_level.jpg.xmp
+│   │   │   ├──  gnu_bull_man.jpg
+│   │   │   ├──  gnu_bull_man.jpg.xmp
+│   │   │   ├──  gruvbox_woman.png
+│   │   │   ├──  gruvbox_woman.png.xmp
+│   │   │   ├──  gunsnroses.png
+│   │   │   ├──  ice_ghost.png
+│   │   │   ├──  light_yagami.jpg.xmp
+│   │   │   ├──  lone_sailor.jpg
+│   │   │   ├──  lone_sailor.jpg.xmp
+│   │   │   ├──  mountain_set.jpg
+│   │   │   ├──  mountain_set.jpg.xmp
+│   │   │   ├──  plane.png
+│   │   │   ├──  point_at_pointer.jpg
+│   │   │   ├──  point_at_pointer.jpg.xmp
+│   │   │   ├──  purpleSkull.png
+│   │   │   ├──  purpleSkull.png.xmp
+│   │   │   ├──  rick_and_morty.jpg
+│   │   │   ├──  rick_and_morty.jpg.xmp
+│   │   │   ├──  shatter_villain.png
+│   │   │   ├──  shrug_it_off.png
+│   │   │   ├──  solaroid-2.jpg
+│   │   │   ├──  solaroid.jpg
+│   │   │   ├──  sunfucked.png
+│   │   │   ├──  terrain.png
+│   │   │   ├──  tokyo_drift.png
+│   │   │   ├──  venom.jpg
+│   │   │   ├──  venom.jpg.xmp
+│   │   │   ├──  yinAndYang.png
+│   │   │   └──  yinAndYang.png.xmp
+│   │   └──  waybar.theme
+│   ├──  'Synth Wave'
+│   │   ├──  hypr.theme
+│   │   ├──  kitty.theme
+│   │   ├──  kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Synth Wave/wallpapers'/'glitch fox.png'
+│   │   ├──  wallpapers
+│   │   │   ├──  beach.jpg
+│   │   │   ├──  'glitch fox.png'
+│   │   │   ├──  'palm trees.jpg'
+│   │   │   └──  waves.jpg
+│   │   └──  waybar.theme
+│   └──  'Tokyo Night'
+│       ├──  hypr.theme
+│       ├──  kitty.theme
+│       ├──  kvantum
+│       │   ├──  kvantum.theme
+│       │   └──  kvconfig.theme
+│       ├──  rofi.theme
+│       ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Tokyo Night/wallpapers'/cat_lofi_cafe.jpg
+│       ├──  wallpapers
+│       │   ├──  cat_lofi_cafe.jpg
+│       │   ├──  edger_lucy_neon.jpg
+│       │   ├──  gas_station.gif
+│       │   ├──  lowpoly_street.png
+│       │   ├──  solaroid.jpg
+│       │   ├──  street.gif
+│       │   └──  tokyo_pink.png
+│       └──  waybar.theme
+└──  wallbash
+    ├──  Wall-Dcol
+    │   ├──  gtk
+    │   │   ├──  gtk3.dcol
+    │   │   └──  gtk4.dcol
+    │   ├──  hypr.dcol
+    │   ├──  kitty.dcol
+    │   ├──  kvantum
+    │   │   ├──  kvantum.dcol
+    │   │   └──  kvconfig.dcol
+    │   ├──  rofi.dcol
+    │   └──  waybar.dcol
+    └──  Wall-Ways
+        ├──  cava.dcol
+        ├──  code.dcol
+        ├──  discord.dcol
+        ├──  notification
+        │   ├──  dunst.dcol
+        │   ├──  hyprdots.dcol
+        │   ├──  muted-mic.dcol
+        │   ├──  muted-speaker.dcol
+        │   ├──  unmuted-mic.dcol
+        │   ├──  unmuted-speaker.dcol
+        │   ├──  vol-0.dcol
+        │   ├──  vol-5.dcol
+        │   ├──  vol-10.dcol
+        │   ├──  vol-15.dcol
+        │   ├──  vol-20.dcol
+        │   ├──  vol-25.dcol
+        │   ├──  vol-30.dcol
+        │   ├──  vol-35.dcol
+        │   ├──  vol-40.dcol
+        │   ├──  vol-45.dcol
+        │   ├──  vol-50.dcol
+        │   ├──  vol-55.dcol
+        │   ├──  vol-60.dcol
+        │   ├──  vol-65.dcol
+        │   ├──  vol-70.dcol
+        │   ├──  vol-75.dcol
+        │   ├──  vol-80.dcol
+        │   ├──  vol-85.dcol
+        │   ├──  vol-90.dcol
+        │   ├──  vol-95.dcol
+        │   └──  vol-100.dcol
+        ├──  palette
+        │   ├──  palette_v2.t2
+        │   └──  palette_v3.t2
+        ├──  qtct.dcol
+        └──  spotify.dcol
+
+
+And this is the file tree structure of ~/.conf/hyde folder: (pasted)
+
+Also attached as examples, the root hyde.conf file and the relevant files inside themes/ and  Rule One/.
+
+hyprland --version: Hyprland 0.56.0 built from branch v0.56.0 at commit 36b2e0cfe0c6094dbc47bd42a437431315bb3087 clean (version: bump to 0.56.0).
+Date: Mon Jul 20 07:50:48 2026
+Tag: v0.56.0, commits: 7625
+
+Libraries:
+Hyprgraphics: built against 0.5.1, system has 0.5.1
+Hyprutils: built against 0.14.0, system has 0.14.0
+Hyprcursor: built against 0.1.13, system has 0.1.13
+Hyprlang: built against 0.6.8, system has 0.6.8
+Aquamarine: built against 0.13.0, system has 0.13.0
+
+Version ABI string: 36b2e0cfe0c6094dbc47bd42a437431315bb3087_aq_0.13_hu_0.14_hg_0.5_hc_0.1_hlg_0.6
+no flags were set
+
+"Do you still use theme/wallpaper switching? If yes, I'll make colors.lua regenerable; if no, I'll freeze it as a static module."
+- that depends. How tough will it be for you to replicate the regeneration of colors.lua and the rest of the stuff you would have to do for themes/wallpapers to be switchable - on a scale of 1-100?
+
+"nvidia.conf was never sourced. Do you want it included now, or dropped?"
+- drop it I don't care for it
+
+"For the duplicate binds (the two chatgptWin ones, the doubled hyprctl lines), should I clean them up during conversion or keep everything as-is?"
+- keep everything as is and if a pair of duplicates will cause issues, flag it and tell me.
+
+"Whether you start it from a TTY, SDDM, or uwsm, and any custom launcher or wrapper. Hyprland needs to find hyprland.lua, and the HyDE session script might set HYPRLAND_CONFIG to something else."
+- starting hyprland launches it, under it is arch linux on endeavour os. I do not use Hyde CLI and I doubt that I even have HyDE cli.
+
+"How hyprwinwrap is loaded (hyprpm, or a plugin line I couldn't see)."
+- I'm not sure.
+
+❯ hyprpm list
+→ Repository Hyprspace (by ):
+  │ Plugin Hyprspace
+  └─ enabled: true
+
+(but I don't mind even if Hyprspace gets removed honestly)
+
+❯ grep -rn hyprwinwrap ~/.config/hypr
+/home/pulkit/.config/hypr/hyprland.conf:161:  hyprwinwrap {
+
+The hypr.theme I pasted can say decay green in places and can be similar to decay green's theme because it was a copy of that.
+
+❯ for f in ~/.config/hyde/themes/*/hypr.theme; do echo "### $f"; cat "$f"; done
+### /home/pulkit/.config/hyde/themes/Catppuccin Mocha/hypr.theme
+$HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
+exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-dracula'
+exec = gsettings set org.gnome.desktop.interface gtk-theme 'Catppuccin-Mocha'
+exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+general {
+    gaps_in = 3
+    gaps_out = 8
+    border_size = 2
+    col.active_border = rgba(ca9ee6ff) rgba(f2d5cfff) 45deg
+    col.inactive_border = rgba(b4befecc) rgba(6c7086cc) 45deg
+    layout = dwindle
+    resize_on_border = true
+}
+
+group {
+    col.border_active = rgba(ca9ee6ff) rgba(f2d5cfff) 45deg
+    col.border_inactive = rgba(b4befecc) rgba(6c7086cc) 45deg
+    col.border_locked_active = rgba(ca9ee6ff) rgba(f2d5cfff) 45deg
+    col.border_locked_inactive = rgba(b4befecc) rgba(6c7086cc) 45deg
+}
+
+decoration {
+    rounding = 10
+    drop_shadow = false
+
+    blur {
+        enabled = yes
+        size = 6
+        passes = 3
+        new_optimizations = on
+        ignore_opacity = on
+        xray = false
+    }
+}
+
+layerrule = blur,waybar
+### /home/pulkit/.config/hyde/themes/Decay Green/hypr.theme
+$HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
+exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-green'
+exec = gsettings set org.gnome.desktop.interface gtk-theme 'Decay-Green'
+exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+general {
+    gaps_in = 3
+    gaps_out = 8
+    border_size = 2
+    col.active_border = rgba(90ceaaff) rgba(ecd3a0ff) 45deg
+    col.inactive_border = rgba(86aaeccc) rgba(93cee9cc) 45deg
+    layout = dwindle
+    resize_on_border = true
+}
+
+group {
+    col.border_active = rgba(90ceaaff) rgba(ecd3a0ff) 45deg
+    col.border_inactive = rgba(86aaeccc) rgba(93cee9cc) 45deg
+    col.border_locked_active = rgba(90ceaaff) rgba(ecd3a0ff) 45deg
+    col.border_locked_inactive = rgba(86aaeccc) rgba(93cee9cc) 45deg
+}
+
+decoration {
+    rounding = 10
+    drop_shadow = false
+
+    blur {
+        enabled = yes
+        size = 5
+        passes = 4
+        new_optimizations = on
+        ignore_opacity = on
+        xray = false
+    }
+}
+
+layerrule = unset,waybar
+### /home/pulkit/.config/hyde/themes/Edge Runner/hypr.theme
+$HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
+exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-yellow'
+exec = gsettings set org.gnome.desktop.interface gtk-theme 'Edge-Runner'
+exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+general {
+    gaps_in = 8
+    gaps_out = 15
+    border_size = 4
+    col.active_border = rgba(FADA16ff) rgba(4DBD4Fff) 45deg
+    col.inactive_border = rgba(5032ACff) rgba(1F5322ff) 45deg
+    layout = dwindle
+    resize_on_border = true
+}
+
+group {
+    col.border_active = rgba(FADA16ff) rgba(4DBD4Fff) 45deg
+    col.border_inactive = rgba(5032ACff) rgba(1F5322ff) 45deg
+    col.border_locked_active = rgba(FADA16ff) rgba(4DBD4Fff) 45deg
+    col.border_locked_inactive = rgba(5032ACff) rgba(1F5322ff) 45deg
+}
+
+decoration {
+    rounding = 0
+    drop_shadow = true
+    shadow_ignore_window = true
+    shadow_offset = 5 5
+    shadow_range = 0
+    shadow_render_power = 4
+    col.shadow = 0xffFFA6C2
+
+    blur {
+        enabled = yes
+        size = 6
+        passes = 3
+        new_optimizations = on
+        ignore_opacity = on
+        xray = false
+    }
+}
+
+layerrule = unset,waybar
+### /home/pulkit/.config/hyde/themes/Frosted Glass/hypr.theme
+$HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
+#  ___________      _________                        __   
+#  \__    ___/      \_   ___ \_______ ___.__._______/  |_ 
+#   |    |  ______ /    \  \/\_  __ <   |  |\____ \   __\
+#   |    | /_____/ \     \____|  | \/\___  ||  |_> >  |  
+#   |____|          \______  /|__|   / ____||   __/|__|  
+#                          \/        \/     |__|      
+
+exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-blue'
+exec = gsettings set org.gnome.desktop.interface gtk-theme 'Frosted-Glass'
+exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
+
+general {
+    gaps_in = 4
+    gaps_out = 10
+    border_size = 2
+    col.active_border = rgba(2770C0ff) rgba(1E4C84ff) 45deg
+    col.inactive_border = rgba(A44185cc) rgba(012339cc) 45deg
+    layout = dwindle
+    resize_on_border = true
+}
+
+group {
+    col.border_active = rgba(2770C0ff) rgba(1E4C84ff) 45deg
+    col.border_inactive = rgba(A44185cc) rgba(012339cc) 45deg
+    col.border_locked_active = rgba(2770C0ff) rgba(1E4C84ff) 45deg
+    col.border_locked_inactive = rgba(A44185cc) rgba(012339cc) 45deg
+}
+
+decoration {
+    rounding = 13
+    drop_shadow = false
+    shadow_ignore_window = true
+    shadow_offset = 0 0
+    shadow_range = 15
+    shadow_render_power = 1
+    col.shadow = 0x80ffffff
+    active_opacity = 0.75
+    inactive_opacity = 0.75
+
+    blur {
+        enabled = yes
+        size = 4
+        passes = 4
+        new_optimizations = on
+        ignore_opacity = on
+        xray = false
+    }
+}
+
+layerrule = blur,waybar
+### /home/pulkit/.config/hyde/themes/Gray Biker/hypr.theme
+$HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
+exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-green'
+exec = gsettings set org.gnome.desktop.interface gtk-theme 'Decay-Green'
+exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+general {
+    gaps_in = 1
+    gaps_out = 2
+    border_size = 1
+    col.active_border = rgba(90ceaaff) rgba(ecd3a0ff) 45deg
+    col.inactive_border = rgba(86aaeccc) rgba(93cee9cc) 45deg
+    layout = dwindle
+    resize_on_border = true
+}
+
+group {
+    col.border_active = rgba(90ceaaff) rgba(ecd3a0ff) 45deg
+    col.border_inactive = rgba(86aaeccc) rgba(93cee9cc) 45deg
+    col.border_locked_active = rgba(90ceaaff) rgba(ecd3a0ff) 45deg
+    col.border_locked_inactive = rgba(86aaeccc) rgba(93cee9cc) 45deg
+}
+
+decoration {
+    rounding = 5
+    drop_shadow = false
+
+    blur {
+        enabled = no
+        size = 5
+        passes = 4
+        new_optimizations = on
+        ignore_opacity = on
+        xray = false
+    }
+}
+
+layerrule = unset,waybar
+### /home/pulkit/.config/hyde/themes/Material Sakura/hypr.theme
+$HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
+exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-black'
+exec = gsettings set org.gnome.desktop.interface gtk-theme 'Material-Sakura'
+exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
+
+general {
+    gaps_in = 8
+    gaps_out = 14
+    border_size = 4
+    col.active_border = rgba(b4637aff) rgba(d7827eff) 45deg
+    col.inactive_border = rgba(286983cc) rgba(56949fcc) 45deg
+    layout = dwindle
+    resize_on_border = true
+}
+
+group {
+    col.border_active = rgba(b4637aff) rgba(d7827eff) 45deg
+    col.border_inactive = rgba(286983cc) rgba(56949fcc) 45deg
+    col.border_locked_active = rgba(b4637aff) rgba(d7827eff) 45deg
+    col.border_locked_inactive = rgba(286983cc) rgba(56949fcc) 45deg
+}
+
+decoration {
+    rounding = 12
+    drop_shadow = true
+    shadow_ignore_window = true
+    shadow_offset = 6 6
+    shadow_range = 3
+    shadow_render_power = 4
+    col.shadow = 0xff26233a
+
+    blur {
+        enabled = yes
+        size = 6
+        passes = 3
+        new_optimizations = on
+        ignore_opacity = on
+        xray = false
+    }
+}
+
+layerrule = unset,waybar
+### /home/pulkit/.config/hyde/themes/Nordic Blue/hypr.theme
+$HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
+#  ___________      _________                        __   
+#  \__    ___/      \_   ___ \_______ ___.__._______/  |_ 
+#   |    |  ______ /    \  \/\_  __ <   |  |\____ \   __\
+#   |    | /_____/ \     \____|  | \/\___  ||  |_> >  |  
+#   |____|          \______  /|__|   / ____||   __/|__|  
+#                          \/        \/     |__|      
+
+exec = gsettings set org.gnome.desktop.interface icon-theme 'Nordzy'
+exec = gsettings set org.gnome.desktop.interface gtk-theme 'Nordic-Blue'
+exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+general {
+    gaps_in = 3
+    gaps_out = 8
+    border_size = 2
+    col.active_border = rgba(5A9ACAB4) rgba(ECD3A0FF) 45deg
+    col.inactive_border = rgba(1E8B50D9) rgba(32B032D9) 45deg
+    layout = dwindle
+    resize_on_border = true
+}
+
+group {
+    col.border_active = rgba(5A9ACAB4) rgba(ECD3A0FF) 45deg
+    col.border_inactive = rgba(1E8B50D9) rgba(32B032D9) 45deg
+    col.border_locked_active = rgba(5A9ACAB4) rgba(ECD3A0FF) 45deg
+    col.border_locked_inactive = rgba(1E8B50D9) rgba(32B032D9) 45deg
+}
+
+decoration {
+    rounding = 7
+    drop_shadow = false
+
+    blur {
+        enabled = yes
+        size = 5
+        passes = 3
+        new_optimizations = on
+        ignore_opacity = on
+        xray = false
+    }
+}
+
+blurls = waybar
+### /home/pulkit/.config/hyde/themes/Rule One/hypr.theme
+$HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
+exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-green'
+exec = gsettings set org.gnome.desktop.interface gtk-theme 'Decay-Green'
+exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+general {
+    gaps_in = 0
+    gaps_out = 0
+    border_size = 1
+    col.active_border = rgba(90ceaaff) rgba(ecd3a0ff) 45deg
+    col.inactive_border = rgba(86aaeccc) rgba(93cee9cc) 45deg
+    layout = dwindle
+    resize_on_border = true
+}
+
+group {
+    col.border_active = rgba(90ceaaff) rgba(ecd3a0ff) 45deg
+    col.border_inactive = rgba(86aaeccc) rgba(93cee9cc) 45deg
+    col.border_locked_active = rgba(90ceaaff) rgba(ecd3a0ff) 45deg
+    col.border_locked_inactive = rgba(86aaeccc) rgba(93cee9cc) 45deg
+}
+
+decoration {
+    rounding = 2
+    drop_shadow = false
+    
+    blur {
+        enabled = no
+        size = 5
+        passes = 4
+        new_optimizations = on
+        ignore_opacity = on
+        xray = false
+    }
+}
+
+layerrule = unset,waybar
+### /home/pulkit/.config/hyde/themes/Synth Wave/hypr.theme
+$HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
+exec = gsettings set org.gnome.desktop.interface icon-theme 'BeautyLine'
+exec = gsettings set org.gnome.desktop.interface gtk-theme 'Synth-Wave'
+exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+general {
+    gaps_in = 12
+    gaps_out = 18
+    border_size = 2
+    col.active_border = rgba(03edf9ff) rgba(72f1b8ff) 45deg
+    col.inactive_border = rgba(495495cc) rgba(614D85cc) 45deg
+    layout = dwindle
+    resize_on_border = true
+}
+
+group {
+    col.border_active = rgba(03edf9ff) rgba(72f1b8ff) 45deg
+    col.border_inactive = rgba(495495cc) rgba(614D85cc) 45deg
+    col.border_locked_active = rgba(03edf9ff) rgba(72f1b8ff) 45deg
+    col.border_locked_inactive = rgba(495495cc) rgba(614D85cc) 45deg
+}
+
+decoration {
+    rounding = 2
+    drop_shadow = true
+    shadow_scale = 1
+    shadow_ignore_window = true
+    shadow_offset = 0 0
+    shadow_range = 12
+    shadow_render_power = 1
+    col.shadow = 0xffff7edb
+
+    blur {
+        enabled = yes
+        size = 6
+        passes = 3
+        new_optimizations = on
+        ignore_opacity = on
+        xray = false
+    }
+}
+
+blurls = waybar
+### /home/pulkit/.config/hyde/themes/Tokyo Night/hypr.theme
+$HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
+exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-purple'
+exec = gsettings set org.gnome.desktop.interface gtk-theme 'Tokyo-Night'
+exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+general {
+    gaps_in = 3
+    gaps_out = 8
+    border_size = 2
+    col.active_border = rgba(bb9af7ff) rgba(b4f9f8ff) 45deg
+    col.inactive_border = rgba(565f89cc) rgba(9aa5cecc) 45deg
+    layout = dwindle
+    resize_on_border = true
+}
+
+group {
+    col.border_active = rgba(bb9af7ff) rgba(b4f9f8ff) 45deg
+    col.border_inactive = rgba(565f89cc) rgba(9aa5cecc) 45deg
+    col.border_locked_active = rgba(bb9af7ff) rgba(b4f9f8ff) 45deg
+    col.border_locked_inactive = rgba(565f89cc) rgba(9aa5cecc) 45deg
+}
+
+decoration {
+    rounding = 10
+    drop_shadow = false
+
+    blur {
+        enabled = yes
+        size = 6
+        passes = 3
+        new_optimizations = on
+        ignore_opacity = on
+        xray = false
+    }
+}
+
+layerrule = blur,waybar
+
+--
+
+❯ cat /usr/share/hypr/stubs/hl.meta.lua
+-- This file is autogenerated. Do not edit by hand.
+-- Generator: scripts/generateLuaStubs.py
+---@meta
+
+---@alias HL.EventName
+---| "config.props_refreshed"
+---| "config.reloaded"
+---| "hyprland.shutdown"
+---| "hyprland.start"
+---| "input.keyboard.key"
+---| "keybinds.submap"
+---| "layer.closed"
+---| "layer.opened"
+---| "monitor.added"
+---| "monitor.focused"
+---| "monitor.layout_changed"
+---| "monitor.removed"
+---| "screenshare.state"
+---| "window.active"
+---| "window.class"
+---| "window.close"
+---| "window.destroy"
+---| "window.fullscreen"
+---| "window.kill"
+---| "window.move_to_workspace"
+---| "window.open"
+---| "window.open_early"
+---| "window.pin"
+---| "window.title"
+---| "window.update_rules"
+---| "window.urgent"
+---| "workspace.active"
+---| "workspace.created"
+---| "workspace.move_to_monitor"
+---| "workspace.removed"
+---| "workspace.special_active"
+
+---@alias HL.ConfigKey
+---| "animations.enabled"
+---| "animations.workspace_wraparound"
+---| "binds.allow_pin_fullscreen"
+---| "binds.allow_workspace_cycles"
+---| "binds.disable_keybind_grabbing"
+---| "binds.drag_threshold"
+---| "binds.focus_preferred_method"
+---| "binds.hide_special_on_workspace_change"
+---| "binds.ignore_group_lock"
+---| "binds.movefocus_cycles_fullscreen"
+---| "binds.movefocus_cycles_groupfirst"
+---| "binds.pass_mouse_when_bound"
+---| "binds.scroll_event_delay"
+---| "binds.window_direction_monitor_fallback"
+---| "binds.workspace_back_and_forth"
+---| "binds.workspace_center_on"
+---| "cursor.default_monitor"
+---| "cursor.enable_hyprcursor"
+---| "cursor.hide_on_key_press"
+---| "cursor.hide_on_tablet"
+---| "cursor.hide_on_touch"
+---| "cursor.hotspot_padding"
+---| "cursor.inactive_timeout"
+---| "cursor.invisible"
+---| "cursor.min_refresh_rate"
+---| "cursor.no_break_fs_vrr"
+---| "cursor.no_hardware_cursors"
+---| "cursor.no_warps"
+---| "cursor.persistent_warps"
+---| "cursor.sync_gsettings_theme"
+---| "cursor.use_cpu_buffer"
+---| "cursor.warp_back_after_non_mouse_input"
+---| "cursor.warp_on_change_workspace"
+---| "cursor.warp_on_toggle_special"
+---| "cursor.zoom_detached_camera"
+---| "cursor.zoom_disable_aa"
+---| "cursor.zoom_factor"
+---| "cursor.zoom_rigid"
+---| "debug.colored_stdout_logs"
+---| "debug.damage_blink"
+---| "debug.damage_tracking"
+---| "debug.disable_logs"
+---| "debug.disable_scale_checks"
+---| "debug.disable_time"
+---| "debug.ds_handle_same_buffer"
+---| "debug.ds_handle_same_buffer_fifo"
+---| "debug.enable_stdout_logs"
+---| "debug.error_limit"
+---| "debug.error_position"
+---| "debug.fifo_pending_workaround"
+---| "debug.full_cm_proto"
+---| "debug.gl_debugging"
+---| "debug.invalidate_fp16"
+---| "debug.log_damage"
+---| "debug.manual_crash"
+---| "debug.overlay"
+---| "debug.pass"
+---| "debug.render_solitary_wo_damage"
+---| "debug.suppress_errors"
+---| "debug.vfr"
+---| "decoration.active_opacity"
+---| "decoration.blur.brightness"
+---| "decoration.blur.contrast"
+---| "decoration.blur.enabled"
+---| "decoration.blur.ignore_opacity"
+---| "decoration.blur.input_methods"
+---| "decoration.blur.input_methods_ignorealpha"
+---| "decoration.blur.new_optimizations"
+---| "decoration.blur.noise"
+---| "decoration.blur.passes"
+---| "decoration.blur.popups"
+---| "decoration.blur.popups_ignorealpha"
+---| "decoration.blur.size"
+---| "decoration.blur.special"
+---| "decoration.blur.vibrancy"
+---| "decoration.blur.vibrancy_darkness"
+---| "decoration.blur.xray"
+---| "decoration.border_part_of_window"
+---| "decoration.dim_around"
+---| "decoration.dim_inactive"
+---| "decoration.dim_modal"
+---| "decoration.dim_special"
+---| "decoration.dim_strength"
+---| "decoration.fullscreen_opacity"
+---| "decoration.glow.color"
+---| "decoration.glow.color_inactive"
+---| "decoration.glow.enabled"
+---| "decoration.glow.range"
+---| "decoration.glow.render_power"
+---| "decoration.inactive_opacity"
+---| "decoration.motion_blur.enabled"
+---| "decoration.motion_blur.samples"
+---| "decoration.rounding"
+---| "decoration.rounding_power"
+---| "decoration.screen_shader"
+---| "decoration.shadow.color"
+---| "decoration.shadow.color_inactive"
+---| "decoration.shadow.enabled"
+---| "decoration.shadow.offset"
+---| "decoration.shadow.range"
+---| "decoration.shadow.render_power"
+---| "decoration.shadow.scale"
+---| "decoration.shadow.sharp"
+---| "dwindle.default_split_ratio"
+---| "dwindle.force_split"
+---| "dwindle.permanent_direction_override"
+---| "dwindle.precise_mouse_move"
+---| "dwindle.preserve_split"
+---| "dwindle.smart_resizing"
+---| "dwindle.smart_split"
+---| "dwindle.special_scale_factor"
+---| "dwindle.split_bias"
+---| "dwindle.split_width_multiplier"
+---| "dwindle.use_active_for_splits"
+---| "ecosystem.enforce_permissions"
+---| "ecosystem.no_donation_nag"
+---| "ecosystem.no_update_news"
+---| "experimental.wp_cm_1_2"
+---| "general.allow_tearing"
+---| "general.border_size"
+---| "general.col.active_border"
+---| "general.col.inactive_border"
+---| "general.col.nogroup_border"
+---| "general.col.nogroup_border_active"
+---| "general.extend_border_grab_area"
+---| "general.float_gaps"
+---| "general.gaps_in"
+---| "general.gaps_out"
+---| "general.gaps_workspaces"
+---| "general.hover_icon_on_border"
+---| "general.layout"
+---| "general.locale"
+---| "general.modal_parent_blocking"
+---| "general.no_focus_fallback"
+---| "general.resize_corner"
+---| "general.resize_on_border"
+---| "general.snap.border_overlap"
+---| "general.snap.enabled"
+---| "general.snap.monitor_gap"
+---| "general.snap.respect_gaps"
+---| "general.snap.window_gap"
+---| "gestures.close_max_timeout"
+---| "gestures.scrolling.move_snap_cursor"
+---| "gestures.scrolling.move_snap_to_grid"
+---| "gestures.workspace_swipe_cancel_ratio"
+---| "gestures.workspace_swipe_create_new"
+---| "gestures.workspace_swipe_direction_lock"
+---| "gestures.workspace_swipe_direction_lock_threshold"
+---| "gestures.workspace_swipe_distance"
+---| "gestures.workspace_swipe_forever"
+---| "gestures.workspace_swipe_invert"
+---| "gestures.workspace_swipe_min_speed_to_force"
+---| "gestures.workspace_swipe_touch"
+---| "gestures.workspace_swipe_touch_invert"
+---| "gestures.workspace_swipe_use_r"
+---| "group.auto_group"
+---| "group.col.border_active"
+---| "group.col.border_inactive"
+---| "group.col.border_locked_active"
+---| "group.col.border_locked_inactive"
+---| "group.drag_into_group"
+---| "group.focus_removed_window"
+---| "group.group_on_movetoworkspace"
+---| "group.groupbar.blur"
+---| "group.groupbar.col.active"
+---| "group.groupbar.col.inactive"
+---| "group.groupbar.col.locked_active"
+---| "group.groupbar.col.locked_inactive"
+---| "group.groupbar.disable_when_only"
+---| "group.groupbar.enabled"
+---| "group.groupbar.font_family"
+---| "group.groupbar.font_size"
+---| "group.groupbar.font_weight_active"
+---| "group.groupbar.font_weight_inactive"
+---| "group.groupbar.gaps_in"
+---| "group.groupbar.gaps_out"
+---| "group.groupbar.gradient_round_only_edges"
+---| "group.groupbar.gradient_rounding"
+---| "group.groupbar.gradient_rounding_power"
+---| "group.groupbar.gradients"
+---| "group.groupbar.height"
+---| "group.groupbar.indicator_gap"
+---| "group.groupbar.indicator_height"
+---| "group.groupbar.keep_upper_gap"
+---| "group.groupbar.middle_click_close"
+---| "group.groupbar.priority"
+---| "group.groupbar.render_titles"
+---| "group.groupbar.round_only_edges"
+---| "group.groupbar.rounding"
+---| "group.groupbar.rounding_power"
+---| "group.groupbar.scrolling"
+---| "group.groupbar.stacked"
+---| "group.groupbar.text_color"
+---| "group.groupbar.text_color_inactive"
+---| "group.groupbar.text_color_locked_active"
+---| "group.groupbar.text_color_locked_inactive"
+---| "group.groupbar.text_offset"
+---| "group.groupbar.text_padding"
+---| "group.insert_after_current"
+---| "group.merge_floated_into_tiled_on_groupbar"
+---| "group.merge_groups_on_drag"
+---| "group.merge_groups_on_groupbar"
+---| "input.accel_profile"
+---| "input.emulate_discrete_scroll"
+---| "input.float_switch_override_focus"
+---| "input.focus_on_close"
+---| "input.follow_mouse"
+---| "input.follow_mouse_shrink"
+---| "input.follow_mouse_threshold"
+---| "input.force_no_accel"
+---| "input.kb_file"
+---| "input.kb_layout"
+---| "input.kb_model"
+---| "input.kb_options"
+---| "input.kb_rules"
+---| "input.kb_variant"
+---| "input.left_handed"
+---| "input.mouse_refocus"
+---| "input.natural_scroll"
+---| "input.numlock_by_default"
+---| "input.off_window_axis_events"
+---| "input.repeat_delay"
+---| "input.repeat_rate"
+---| "input.resolve_binds_by_sym"
+---| "input.rotation"
+---| "input.scroll_button"
+---| "input.scroll_button_lock"
+---| "input.scroll_factor"
+---| "input.scroll_method"
+---| "input.scroll_points"
+---| "input.sensitivity"
+---| "input.special_fallthrough"
+---| "input.tablet.absolute_region_position"
+---| "input.tablet.active_area_position"
+---| "input.tablet.active_area_size"
+---| "input.tablet.left_handed"
+---| "input.tablet.output"
+---| "input.tablet.region_position"
+---| "input.tablet.region_size"
+---| "input.tablet.relative_input"
+---| "input.tablet.transform"
+---| "input.tablettool.eraser_button_mode"
+---| "input.tablettool.eraser_button_override"
+---| "input.tablettool.pressure_range_max"
+---| "input.tablettool.pressure_range_min"
+---| "input.touchdevice.enabled"
+---| "input.touchdevice.output"
+---| "input.touchdevice.transform"
+---| "input.touchpad.clickfinger_behavior"
+---| "input.touchpad.disable_while_typing"
+---| "input.touchpad.drag_3fg"
+---| "input.touchpad.drag_lock"
+---| "input.touchpad.flip_x"
+---| "input.touchpad.flip_y"
+---| "input.touchpad.middle_button_emulation"
+---| "input.touchpad.natural_scroll"
+---| "input.touchpad.scroll_factor"
+---| "input.touchpad.tap_and_drag"
+---| "input.touchpad.tap_button_map"
+---| "input.touchpad.tap_to_click"
+---| "input.virtualkeyboard.release_pressed_on_close"
+---| "input.virtualkeyboard.share_states"
+---| "input_capture.capture_modifiers"
+---| "input_capture.enforce_barriers"
+---| "layout.single_window_aspect_ratio"
+---| "layout.single_window_aspect_ratio_tolerance"
+---| "master.allow_small_split"
+---| "master.always_keep_position"
+---| "master.center_ignores_reserved"
+---| "master.center_master_fallback"
+---| "master.drop_at_cursor"
+---| "master.focus_master_on_close"
+---| "master.mfact"
+---| "master.new_on_active"
+---| "master.new_on_top"
+---| "master.new_status"
+---| "master.orientation"
+---| "master.slave_count_for_center_master"
+---| "master.smart_resizing"
+---| "master.special_scale_factor"
+---| "misc.allow_session_lock_restore"
+---| "misc.always_follow_on_dnd"
+---| "misc.animate_manual_resizes"
+---| "misc.animate_mouse_windowdragging"
+---| "misc.anr_missed_pings"
+---| "misc.background_color"
+---| "misc.close_special_on_empty"
+---| "misc.col.splash"
+---| "misc.disable_autoreload"
+---| "misc.disable_hyprland_guiutils_check"
+---| "misc.disable_hyprland_logo"
+---| "misc.disable_scale_notification"
+---| "misc.disable_splash_rendering"
+---| "misc.disable_watchdog_warning"
+---| "misc.disable_xdg_env_checks"
+---| "misc.enable_anr_dialog"
+---| "misc.enable_swallow"
+---| "misc.exit_window_retains_fullscreen"
+---| "misc.focus_on_activate"
+---| "misc.font_family"
+---| "misc.force_default_wallpaper"
+---| "misc.initial_workspace_token_timeout"
+---| "misc.initial_workspace_tracking"
+---| "misc.key_press_enables_dpms"
+---| "misc.layers_hog_keyboard_focus"
+---| "misc.lockdead_screen_delay"
+---| "misc.middle_click_paste"
+---| "misc.mouse_move_enables_dpms"
+---| "misc.mouse_move_focuses_monitor"
+---| "misc.name_vk_after_proc"
+---| "misc.on_focus_under_fullscreen"
+---| "misc.render_unfocused_fps"
+---| "misc.screencopy_force_8b"
+---| "misc.session_lock_blur"
+---| "misc.session_lock_xray"
+---| "misc.size_limits_tiled"
+---| "misc.splash_font_family"
+---| "misc.swallow_exception_regex"
+---| "misc.swallow_regex"
+---| "misc.vrr"
+---| "opengl.nvidia_anti_flicker"
+---| "quirks.prefer_hdr"
+---| "quirks.skip_non_kms_dmabuf_formats"
+---| "render.cm_auto_hdr"
+---| "render.cm_enabled"
+---| "render.cm_sdr_eotf"
+---| "render.commit_timing_enabled"
+---| "render.ctm_animation"
+---| "render.direct_scanout"
+---| "render.expand_undersized_textures"
+---| "render.fp16_sdr_tf"
+---| "render.icc_vcgt_enabled"
+---| "render.keep_unmodified_copy"
+---| "render.new_render_scheduling"
+---| "render.non_shader_cm"
+---| "render.non_shader_cm_interop"
+---| "render.send_content_type"
+---| "render.use_fp16"
+---| "render.use_shader_blur_blend"
+---| "render.xp_mode"
+---| "scrolling.column_width"
+---| "scrolling.direction"
+---| "scrolling.explicit_column_widths"
+---| "scrolling.focus_fit_method"
+---| "scrolling.follow_focus"
+---| "scrolling.follow_min_visible"
+---| "scrolling.fullscreen_on_one_column"
+---| "scrolling.wrap_focus"
+---| "scrolling.wrap_swapcol"
+---| "xwayland.create_abstract_socket"
+---| "xwayland.enabled"
+---| "xwayland.force_zero_scaling"
+---| "xwayland.use_nearest_neighbor"
+
+---@alias HL.MonitorSelector string|integer|HL.Monitor
+---@alias HL.WorkspaceSelector string|integer|HL.Workspace
+---@alias HL.WindowSelector string|integer|HL.Window
+---@alias HL.Vec2Like HL.Vec2|{x:number, y:number}|{number, number}|string
+---@alias HL.CssGap integer|{top?:integer, right?:integer, bottom?:integer, left?:integer}
+---@alias HL.Gradient string|{colors:string[], angle?:number}
+
+---@class HL.Dispatcher
+local __HL_Dispatcher = {}
+
+---@class HL.Vec2
+---@field x number
+---@field y number
+local __HL_Vec2 = {}
+
+---@class HL.Box
+---@field x number
+---@field y number
+---@field w number
+---@field h number
+local __HL_Box = {}
+
+---@class HL.LayoutTarget
+---@field index integer
+---@field window HL.Window|nil
+---@field box HL.Box
+---@field place fun(self: HL.LayoutTarget, box: HL.Box): nil
+---@field set_box fun(self: HL.LayoutTarget, box: HL.Box): nil
+local __HL_LayoutTarget = {}
+
+---@class HL.LayoutContext
+---@field area HL.Box
+---@field targets HL.LayoutTarget[]
+---@field grid_cell fun(self: HL.LayoutContext, i: integer, cols: integer, rows?: integer): HL.Box
+---@field column fun(self: HL.LayoutContext, i: integer, n: integer): HL.Box
+---@field row fun(self: HL.LayoutContext, i: integer, n: integer): HL.Box
+---@field split fun(self: HL.LayoutContext, box: HL.Box, side: 'left'|'right'|'top'|'bottom'|'up'|'down', ratio: number): HL.Box
+local __HL_LayoutContext = {}
+
+---@class HL.LayoutProvider
+---@field recalculate fun(ctx: HL.LayoutContext): nil
+---@field layout_msg? fun(ctx: HL.LayoutContext, msg: string): boolean|string|nil
+local __HL_LayoutProvider = {}
+
+---@class HL.BindOptions
+---@field repeating? boolean
+---@field locked? boolean
+---@field release? boolean
+---@field non_consuming? boolean
+---@field transparent? boolean
+---@field ignore_mods? boolean
+---@field dont_inhibit? boolean
+---@field long_press? boolean
+---@field submap_universal? boolean
+---@field click? boolean
+---@field drag? boolean
+---@field description? string
+---@field desc? string
+---@field device? {inclusive?: boolean, list?: string[]}
+---@field allow_input_capture? boolean
+local __HL_BindOptions = {}
+
+---@class HL.TimerOptions
+---@field timeout integer
+---@field type "repeat"|"oneshot"
+local __HL_TimerOptions = {}
+
+---@class HL.GestureSpec
+---@field fingers integer
+---@field direction string
+---@field action string|function
+---@field mods? string
+---@field scale? number
+---@field mode? string
+---@field zoom_level? number
+---@field workspace_name? string
+---@field disable_inhibit? boolean
+local __HL_GestureSpec = {}
+
+---@class HL.PermissionSpec
+---@field binary string
+---@field type string
+---@field mode string
+local __HL_PermissionSpec = {}
+
+---@class HL.NotificationOptions
+---@field text string
+---@field timeout number
+---@field color? string
+---@field icon? integer|string
+---@field font_size? number
+local __HL_NotificationOptions = {}
+
+---@class HL.LayerQueryFilter
+---@field monitor? HL.MonitorSelector
+---@field namespace? string
+local __HL_LayerQueryFilter = {}
+
+---@class HL.WindowQueryFilter
+---@field class? string
+---@field floating? boolean
+---@field mapped? boolean
+---@field monitor? HL.MonitorSelector
+---@field tag? string
+---@field title? string
+---@field workspace? HL.WorkspaceSelector
+local __HL_WindowQueryFilter = {}
+
+---@class HL.DeviceSpec
+---@field absolute_region_position? boolean
+---@field accel_profile? string
+---@field active_area_position? HL.Vec2Like
+---@field active_area_size? HL.Vec2Like
+---@field clickfinger_behavior? boolean
+---@field disable_while_typing? boolean
+---@field drag_3fg? integer|boolean
+---@field drag_lock? integer|boolean
+---@field enabled? boolean
+---@field flip_x? boolean
+---@field flip_y? boolean
+---@field kb_file? string
+---@field kb_layout? string
+---@field kb_model? string
+---@field kb_options? string
+---@field kb_rules? string
+---@field kb_variant? string
+---@field keybinds? boolean
+---@field left_handed? boolean
+---@field middle_button_emulation? boolean
+---@field name string
+---@field natural_scroll? boolean
+---@field numlock_by_default? boolean
+---@field output? string
+---@field region_position? HL.Vec2Like
+---@field region_size? HL.Vec2Like
+---@field relative_input? boolean
+---@field release_pressed_on_close? boolean
+---@field repeat_delay? integer|boolean
+---@field repeat_rate? integer|boolean
+---@field resolve_binds_by_sym? boolean
+---@field rotation? integer|boolean
+---@field scroll_button? integer|boolean
+---@field scroll_button_lock? boolean
+---@field scroll_factor? number|boolean
+---@field scroll_method? string
+---@field scroll_points? string
+---@field sensitivity? number|boolean
+---@field share_states? integer|boolean
+---@field tags? string
+---@field tap_and_drag? boolean
+---@field tap_button_map? string
+---@field tap_to_click? boolean
+---@field transform? integer|boolean
+local __HL_DeviceSpec = {}
+
+---@class HL.LayerRuleSpec
+---@field above_lock? integer|boolean
+---@field animation? string
+---@field blur? boolean
+---@field blur_popups? boolean
+---@field dim_around? boolean
+---@field enabled? boolean
+---@field ignore_alpha? number|boolean
+---@field match? table<string, string|boolean>
+---@field name? string
+---@field no_anim? boolean
+---@field no_screen_share? boolean
+---@field order? integer|boolean
+---@field xray? boolean
+local __HL_LayerRuleSpec = {}
+
+---@class HL.MonitorSpec
+---@field bitdepth? integer|boolean
+---@field cm? string
+---@field disabled? boolean
+---@field icc? string
+---@field max_avg_luminance? integer|boolean
+---@field max_luminance? integer|boolean
+---@field min_luminance? number|boolean
+---@field mirror? string
+---@field mode? string
+---@field output string
+---@field position? string
+---@field reserved? integer|HL.CssGap
+---@field reserved_area? integer|HL.CssGap
+---@field scale? string|number
+---@field sdr_eotf? string
+---@field sdr_max_luminance? integer|boolean
+---@field sdr_min_luminance? number|boolean
+---@field sdrbrightness? number|boolean
+---@field sdrsaturation? number|boolean
+---@field supports_hdr? integer|boolean
+---@field supports_wide_color? integer|boolean
+---@field transform? integer|boolean
+---@field vrr? integer|boolean
+local __HL_MonitorSpec = {}
+
+---@class HL.WindowRuleSpec
+---@field enabled? boolean
+---@field match? table<string, string|number|boolean>
+---@field name? string
+local __HL_WindowRuleSpec = {}
+
+---@class HL.WorkspaceRuleSpec
+---@field animation? string
+---@field border_size? integer|boolean
+---@field decorate? boolean
+---@field default? boolean
+---@field default_name? string
+---@field enabled? boolean
+---@field float_gaps? integer|HL.CssGap
+---@field gaps_in? integer|HL.CssGap
+---@field gaps_out? integer|HL.CssGap
+---@field layout? string
+---@field layout_opts? table<string, string|number|boolean>
+---@field monitor? string
+---@field no_border? boolean
+---@field no_rounding? boolean
+---@field no_shadow? boolean
+---@field on_created_empty? string
+---@field persistent? boolean
+---@field workspace string
+local __HL_WorkspaceRuleSpec = {}
+
+---@class HL.EventSubscription
+---@field is_active fun(self: HL.EventSubscription, ...): any
+---@field remove fun(self: HL.EventSubscription, ...): any
+local __HL_EventSubscription = {}
+
+---@class HL.Group
+---@field add fun(self: HL.Group, window: HL.Window, index?: integer)
+---@field remove fun(self: HL.Group, window_or_index: HL.Window|integer)
+---@field current HL.Window|nil
+---@field current_index integer
+---@field denied boolean
+---@field locked boolean
+---@field members HL.Window|table|nil
+---@field size integer
+local __HL_Group = {}
+
+---@class HL.Keybind
+---@field is_enabled fun(self: HL.Keybind, ...): any
+---@field remove fun(self: HL.Keybind, ...): any
+---@field set_enabled fun(self: HL.Keybind, ...): any
+---@field unbind fun(self: HL.Keybind, ...): any
+---@field allow_input_capture boolean|nil
+---@field arg string
+---@field auto_consuming boolean
+---@field catchall boolean
+---@field click boolean
+---@field description any
+---@field device_inclusive boolean
+---@field devices any
+---@field display_key string
+---@field dont_inhibit boolean
+---@field drag boolean
+---@field enabled boolean
+---@field handler string
+---@field has_description boolean
+---@field ignore_mods boolean
+---@field key string
+---@field keycode integer
+---@field locked boolean
+---@field long_press boolean
+---@field modmask integer
+---@field mouse boolean
+---@field non_consuming boolean
+---@field release boolean
+---@field repeating boolean
+---@field submap string
+---@field submap_universal boolean
+---@field transparent boolean
+local __HL_Keybind = {}
+
+---@class HL.LayerRule
+---@field is_enabled fun(self: HL.LayerRule, ...): any
+---@field set_enabled fun(self: HL.LayerRule, ...): any
+local __HL_LayerRule = {}
+
+---@class HL.LayerSurface
+---@field above_fullscreen boolean|nil
+---@field address string
+---@field h integer
+---@field interactivity integer
+---@field layer integer
+---@field mapped boolean
+---@field monitor HL.Monitor|nil
+---@field namespace string
+---@field pid integer
+---@field w integer
+---@field x integer
+---@field y integer
+local __HL_LayerSurface = {}
+
+---@class HL.Monitor
+---@field set_special_workspace fun(self: HL.Monitor, ...): any
+---@field set_workspace fun(self: HL.Monitor, ...): any
+---@field active_special_workspace HL.Workspace|nil
+---@field active_workspace HL.Workspace|nil
+---@field available_modes boolean|integer|number|table
+---@field cm string
+---@field description string
+---@field dpms_status boolean
+---@field focused boolean
+---@field height integer
+---@field id integer
+---@field is_mirror boolean
+---@field mirrors HL.Monitor|table
+---@field name string
+---@field physical_height integer
+---@field physical_width integer
+---@field position integer|table
+---@field refresh_rate number
+---@field reserved number|table
+---@field scale number
+---@field serial string
+---@field size integer|table
+---@field transform integer
+---@field vrr_active boolean
+---@field width integer
+---@field x integer
+---@field y integer
+local __HL_Monitor = {}
+
+---@class HL.Notification
+---@field dismiss fun(self: HL.Notification, ...): any
+---@field get_color fun(self: HL.Notification, ...): any
+---@field get_elapsed fun(self: HL.Notification, ...): any
+---@field get_elapsed_since_creation fun(self: HL.Notification, ...): any
+---@field get_font_size fun(self: HL.Notification, ...): any
+---@field get_icon fun(self: HL.Notification, ...): any
+---@field get_text fun(self: HL.Notification, ...): any
+---@field get_timeout fun(self: HL.Notification, ...): any
+---@field is_alive fun(self: HL.Notification, ...): any
+---@field is_paused fun(self: HL.Notification, ...): any
+---@field pause fun(self: HL.Notification, ...): any
+---@field resume fun(self: HL.Notification, ...): any
+---@field set_color fun(self: HL.Notification, ...): any
+---@field set_font_size fun(self: HL.Notification, ...): any
+---@field set_icon fun(self: HL.Notification, ...): any
+---@field set_paused fun(self: HL.Notification, ...): any
+---@field set_text fun(self: HL.Notification, ...): any
+---@field set_timeout fun(self: HL.Notification, ...): any
+local __HL_Notification = {}
+
+---@class HL.Timer
+---@field is_enabled fun(self: HL.Timer, ...): any
+---@field set_enabled fun(self: HL.Timer, ...): any
+---@field set_timeout fun(self: HL.Timer, ...): any
+local __HL_Timer = {}
+
+---@class HL.Window
+---@field accepts_input boolean
+---@field active boolean
+---@field address string
+---@field allowed_over_fullscreen boolean
+---@field at integer|table
+---@field class string
+---@field content_type string
+---@field floating boolean
+---@field focus_history_id integer
+---@field fullscreen integer
+---@field fullscreen_client integer
+---@field fullscreen_handler string
+---@field group HL.Group|nil
+---@field hidden boolean
+---@field inhibiting_idle boolean
+---@field initial_class string
+---@field initial_title string
+---@field layout HL.Window|boolean|integer|number|string|table|nil
+---@field mapped boolean
+---@field monitor HL.Monitor|nil
+---@field pid integer
+---@field pin_fullscreened boolean
+---@field pinned boolean
+---@field size integer|table
+---@field stable_id integer
+---@field swallowing HL.Window|nil
+---@field tags string|table
+---@field tearing_hint boolean|nil
+---@field title string
+---@field visible boolean
+---@field workspace HL.Workspace|nil
+---@field xdg_description string|nil
+---@field xdg_tag string|nil
+---@field xwayland boolean
+local __HL_Window = {}
+
+---@class HL.WindowRule
+---@field is_enabled fun(self: HL.WindowRule, ...): any
+---@field set_enabled fun(self: HL.WindowRule, ...): any
+local __HL_WindowRule = {}
+
+---@class HL.Workspace
+---@field get_groups fun(self: HL.Workspace, ...): any
+---@field get_windows fun(self: HL.Workspace, ...): any
+---@field active boolean
+---@field config_name string
+---@field fullscreen_mode integer
+---@field fullscreen_window HL.Window|nil
+---@field groups integer|nil
+---@field has_fullscreen boolean
+---@field has_urgent boolean
+---@field id integer
+---@field is_empty boolean
+---@field is_persistent boolean
+---@field last_window HL.Window|nil
+---@field monitor HL.Monitor|nil
+---@field name string
+---@field special boolean
+---@field tiled_layout string
+---@field visible boolean
+---@field windows integer
+local __HL_Workspace = {}
+
+---@class HL.WorkspaceRule
+---@field is_enabled fun(self: HL.WorkspaceRule, ...): any
+---@field set_enabled fun(self: HL.WorkspaceRule, ...): any
+local __HL_WorkspaceRule = {}
+
+---@class HL.API
+---@field animation fun(...): any
+---@field bind fun(keys: string, dispatcher: HL.Dispatcher|function, opts?: HL.BindOptions): HL.Keybind
+---@field clear_crashed_lockscreen fun(...): any
+---@field config fun(config: HL.ConfigOpt): nil
+---@field curve fun(...): any
+---@field define_submap fun(name: string, reset_or_fn: string|function, fn?: function): nil
+---@field device fun(spec: HL.DeviceSpec): nil
+---@field dispatch fun(dispatcher: HL.Dispatcher|function): any
+---@field env fun(...): any
+---@field exec_cmd fun(cmd: string, rules?: table<string, string|number|boolean>): nil
+---@field exec_scheduled_prop_refresh_immediately fun(...): any
+---@field gesture fun(spec: HL.GestureSpec): nil
+---@field get_active_monitor fun(): HL.Monitor|nil
+---@field get_active_special_workspace fun(monitor?: HL.MonitorSelector): HL.Workspace|nil
+---@field get_active_window fun(): HL.Window|nil
+---@field get_active_workspace fun(monitor?: HL.MonitorSelector): HL.Workspace|nil
+---@field get_config fun(key: HL.ConfigKey|string): any, string?
+---@field get_current_submap fun(): string
+---@field get_cursor_pos fun(): HL.Vec2|nil
+---@field get_last_window fun(): HL.Window|nil
+---@field get_last_workspace fun(monitor?: HL.MonitorSelector): HL.Workspace|nil
+---@field get_layers fun(filters?: HL.LayerQueryFilter): HL.LayerSurface[]
+---@field get_loaded_plugins fun(...): any
+---@field get_monitor fun(selector: HL.MonitorSelector): HL.Monitor|nil
+---@field get_monitor_at fun(x: number|HL.Vec2, y?: number): HL.Monitor|nil
+---@field get_monitor_at_cursor fun(): HL.Monitor|nil
+---@field get_monitors fun(): HL.Monitor[]
+---@field get_urgent_window fun(): HL.Window|nil
+---@field get_window fun(selector: HL.WindowSelector): HL.Window|nil
+---@field get_windows fun(filters?: HL.WindowQueryFilter): HL.Window[]
+---@field get_workspace fun(selector: HL.WorkspaceSelector): HL.Workspace|nil
+---@field get_workspace_windows fun(workspace: HL.WorkspaceSelector): HL.Window[]
+---@field get_workspaces fun(): HL.Workspace[]
+---@field is_key_down fun(...): any
+---@field layer_rule fun(spec: HL.LayerRuleSpec): HL.LayerRule
+---@field monitor fun(spec: HL.MonitorSpec): nil
+---@field on fun(event: HL.EventName, cb: fun(...)): HL.EventSubscription
+---@field permission fun(spec: HL.PermissionSpec): nil
+---@field timer fun(callback: function, opts: HL.TimerOptions): HL.Timer
+---@field unbind fun(...): any
+---@field version fun(...): any
+---@field window_rule fun(spec: HL.WindowRuleSpec): HL.WindowRule
+---@field workspace_rule fun(spec: HL.WorkspaceRuleSpec): HL.WorkspaceRule
+---@field dsp HL.DspNamespace
+---@field layout HL.LayoutNamespace
+---@field notification HL.NotificationNamespace
+---@field plugin HL.PluginNamespace
+local __HL_API = {}
+
+---@class HL.DspNamespace
+---@field dpms fun(...): HL.Dispatcher
+---@field event fun(...): HL.Dispatcher
+---@field exec_cmd fun(...): HL.Dispatcher
+---@field exec_raw fun(...): HL.Dispatcher
+---@field exit fun(...): HL.Dispatcher
+---@field focus fun(...): HL.Dispatcher
+---@field force_idle fun(...): HL.Dispatcher
+---@field force_renderer_reload fun(...): HL.Dispatcher
+---@field global fun(...): HL.Dispatcher
+---@field layout fun(...): HL.Dispatcher
+---@field no_op fun(...): HL.Dispatcher
+---@field pass fun(...): HL.Dispatcher
+---@field release_input_capture fun(...): HL.Dispatcher
+---@field send_key_state fun(...): HL.Dispatcher
+---@field send_shortcut fun(...): HL.Dispatcher
+---@field submap fun(...): HL.Dispatcher
+---@field cursor HL.DspCursorNamespace
+---@field group HL.DspGroupNamespace
+---@field window HL.DspWindowNamespace
+---@field workspace HL.DspWorkspaceNamespace
+local __HL_DspNamespace = {}
+
+---@class HL.DspCursorNamespace
+---@field move fun(...): HL.Dispatcher
+---@field move_to_corner fun(...): HL.Dispatcher
+local __HL_DspCursorNamespace = {}
+
+---@class HL.DspGroupNamespace
+---@field active fun(...): HL.Dispatcher
+---@field lock fun(...): HL.Dispatcher
+---@field lock_active fun(...): HL.Dispatcher
+---@field move_window fun(...): HL.Dispatcher
+---@field next fun(...): HL.Dispatcher
+---@field prev fun(...): HL.Dispatcher
+---@field toggle fun(...): HL.Dispatcher
+local __HL_DspGroupNamespace = {}
+
+---@class HL.DspWindowNamespace
+---@field alter_zorder fun(...): HL.Dispatcher
+---@field bring_to_top fun(...): HL.Dispatcher
+---@field center fun(...): HL.Dispatcher
+---@field clear_tags fun(...): HL.Dispatcher
+---@field close fun(...): HL.Dispatcher
+---@field cycle_next fun(...): HL.Dispatcher
+---@field deny_from_group fun(...): HL.Dispatcher
+---@field drag fun(...): HL.Dispatcher
+---@field float fun(...): HL.Dispatcher
+---@field fullscreen fun(...): HL.Dispatcher
+---@field fullscreen_state fun(...): HL.Dispatcher
+---@field kill fun(...): HL.Dispatcher
+---@field move fun(...): HL.Dispatcher
+---@field pin fun(...): HL.Dispatcher
+---@field pseudo fun(...): HL.Dispatcher
+---@field resize fun(...): HL.Dispatcher
+---@field set_prop fun(...): HL.Dispatcher
+---@field signal fun(...): HL.Dispatcher
+---@field swap fun(...): HL.Dispatcher
+---@field tag fun(...): HL.Dispatcher
+---@field toggle_swallow fun(...): HL.Dispatcher
+local __HL_DspWindowNamespace = {}
+
+---@class HL.DspWorkspaceNamespace
+---@field change_id fun(...): HL.Dispatcher
+---@field move fun(...): HL.Dispatcher
+---@field rename fun(...): HL.Dispatcher
+---@field swap_monitors fun(...): HL.Dispatcher
+---@field toggle_special fun(...): HL.Dispatcher
+local __HL_DspWorkspaceNamespace = {}
+
+---@class HL.LayoutNamespace
+---@field register fun(name: string, provider: HL.LayoutProvider): nil
+local __HL_LayoutNamespace = {}
+
+---@class HL.NotificationNamespace
+---@field create fun(opts?: HL.NotificationOptions): HL.Notification
+---@field get fun(): HL.Notification[]
+local __HL_NotificationNamespace = {}
+
+---@class HL.PluginNamespace
+---@field load fun(...): any
+---@field [string] any
+local __HL_PluginNamespace = {}
+
+---@type HL.API
+hl = {}
+
+---@class HL.ConfigValueTypes
+---@field ['animations.enabled'] boolean
+---@field ['animations.workspace_wraparound'] boolean
+---@field ['binds.allow_pin_fullscreen'] boolean
+---@field ['binds.allow_workspace_cycles'] boolean
+---@field ['binds.disable_keybind_grabbing'] boolean
+---@field ['binds.drag_threshold'] integer|boolean
+---@field ['binds.focus_preferred_method'] integer|boolean
+---@field ['binds.hide_special_on_workspace_change'] boolean
+---@field ['binds.ignore_group_lock'] boolean
+---@field ['binds.movefocus_cycles_fullscreen'] boolean
+---@field ['binds.movefocus_cycles_groupfirst'] boolean
+---@field ['binds.pass_mouse_when_bound'] boolean
+---@field ['binds.scroll_event_delay'] integer|boolean
+---@field ['binds.window_direction_monitor_fallback'] boolean
+---@field ['binds.workspace_back_and_forth'] boolean
+---@field ['binds.workspace_center_on'] integer|boolean
+---@field ['cursor.default_monitor'] string
+---@field ['cursor.enable_hyprcursor'] boolean
+---@field ['cursor.hide_on_key_press'] boolean
+---@field ['cursor.hide_on_tablet'] boolean
+---@field ['cursor.hide_on_touch'] boolean
+---@field ['cursor.hotspot_padding'] integer|boolean
+---@field ['cursor.inactive_timeout'] number|boolean
+---@field ['cursor.invisible'] boolean
+---@field ['cursor.min_refresh_rate'] integer|boolean
+---@field ['cursor.no_break_fs_vrr'] integer|boolean
+---@field ['cursor.no_hardware_cursors'] integer|boolean
+---@field ['cursor.no_warps'] boolean
+---@field ['cursor.persistent_warps'] boolean
+---@field ['cursor.sync_gsettings_theme'] boolean
+---@field ['cursor.use_cpu_buffer'] integer|boolean
+---@field ['cursor.warp_back_after_non_mouse_input'] boolean
+---@field ['cursor.warp_on_change_workspace'] integer|boolean
+---@field ['cursor.warp_on_toggle_special'] integer|boolean
+---@field ['cursor.zoom_detached_camera'] boolean
+---@field ['cursor.zoom_disable_aa'] boolean
+---@field ['cursor.zoom_factor'] number|boolean
+---@field ['cursor.zoom_rigid'] boolean
+---@field ['debug.colored_stdout_logs'] boolean
+---@field ['debug.damage_blink'] boolean
+---@field ['debug.damage_tracking'] integer|boolean
+---@field ['debug.disable_logs'] boolean
+---@field ['debug.disable_scale_checks'] boolean
+---@field ['debug.disable_time'] boolean
+---@field ['debug.ds_handle_same_buffer'] boolean
+---@field ['debug.ds_handle_same_buffer_fifo'] boolean
+---@field ['debug.enable_stdout_logs'] boolean
+---@field ['debug.error_limit'] integer|boolean
+---@field ['debug.error_position'] integer|boolean
+---@field ['debug.fifo_pending_workaround'] boolean
+---@field ['debug.full_cm_proto'] boolean
+---@field ['debug.gl_debugging'] boolean
+---@field ['debug.invalidate_fp16'] integer|boolean
+---@field ['debug.log_damage'] boolean
+---@field ['debug.manual_crash'] integer|boolean
+---@field ['debug.overlay'] boolean
+---@field ['debug.pass'] boolean
+---@field ['debug.render_solitary_wo_damage'] boolean
+---@field ['debug.suppress_errors'] boolean
+---@field ['debug.vfr'] boolean
+---@field ['decoration.active_opacity'] number|boolean
+---@field ['decoration.blur.brightness'] number|boolean
+---@field ['decoration.blur.contrast'] number|boolean
+---@field ['decoration.blur.enabled'] boolean
+---@field ['decoration.blur.ignore_opacity'] boolean
+---@field ['decoration.blur.input_methods'] boolean
+---@field ['decoration.blur.input_methods_ignorealpha'] number|boolean
+---@field ['decoration.blur.new_optimizations'] boolean
+---@field ['decoration.blur.noise'] number|boolean
+---@field ['decoration.blur.passes'] integer|boolean
+---@field ['decoration.blur.popups'] boolean
+---@field ['decoration.blur.popups_ignorealpha'] number|boolean
+---@field ['decoration.blur.size'] integer|boolean
+---@field ['decoration.blur.special'] boolean
+---@field ['decoration.blur.vibrancy'] number|boolean
+---@field ['decoration.blur.vibrancy_darkness'] number|boolean
+---@field ['decoration.blur.xray'] boolean
+---@field ['decoration.border_part_of_window'] boolean
+---@field ['decoration.dim_around'] number|boolean
+---@field ['decoration.dim_inactive'] boolean
+---@field ['decoration.dim_modal'] boolean
+---@field ['decoration.dim_special'] number|boolean
+---@field ['decoration.dim_strength'] number|boolean
+---@field ['decoration.fullscreen_opacity'] number|boolean
+---@field ['decoration.glow.color'] string|HL.Gradient
+---@field ['decoration.glow.color_inactive'] string|HL.Gradient
+---@field ['decoration.glow.enabled'] boolean
+---@field ['decoration.glow.range'] integer|boolean
+---@field ['decoration.glow.render_power'] integer|boolean
+---@field ['decoration.inactive_opacity'] number|boolean
+---@field ['decoration.motion_blur.enabled'] boolean
+---@field ['decoration.motion_blur.samples'] integer|boolean
+---@field ['decoration.rounding'] integer|boolean
+---@field ['decoration.rounding_power'] number|boolean
+---@field ['decoration.screen_shader'] string
+---@field ['decoration.shadow.color'] string|HL.Gradient
+---@field ['decoration.shadow.color_inactive'] string|HL.Gradient
+---@field ['decoration.shadow.enabled'] boolean
+---@field ['decoration.shadow.offset'] HL.Vec2Like
+---@field ['decoration.shadow.range'] integer|boolean
+---@field ['decoration.shadow.render_power'] integer|boolean
+---@field ['decoration.shadow.scale'] number|boolean
+---@field ['decoration.shadow.sharp'] boolean
+---@field ['dwindle.default_split_ratio'] number|boolean
+---@field ['dwindle.force_split'] integer|boolean
+---@field ['dwindle.permanent_direction_override'] boolean
+---@field ['dwindle.precise_mouse_move'] boolean
+---@field ['dwindle.preserve_split'] boolean
+---@field ['dwindle.smart_resizing'] boolean
+---@field ['dwindle.smart_split'] boolean
+---@field ['dwindle.special_scale_factor'] number|boolean
+---@field ['dwindle.split_bias'] integer|boolean
+---@field ['dwindle.split_width_multiplier'] number|boolean
+---@field ['dwindle.use_active_for_splits'] boolean
+---@field ['ecosystem.enforce_permissions'] boolean
+---@field ['ecosystem.no_donation_nag'] boolean
+---@field ['ecosystem.no_update_news'] boolean
+---@field ['experimental.wp_cm_1_2'] boolean
+---@field ['general.allow_tearing'] boolean
+---@field ['general.border_size'] integer|boolean
+---@field ['general.col.active_border'] string|HL.Gradient
+---@field ['general.col.inactive_border'] string|HL.Gradient
+---@field ['general.col.nogroup_border'] string|HL.Gradient
+---@field ['general.col.nogroup_border_active'] string|HL.Gradient
+---@field ['general.extend_border_grab_area'] integer|boolean
+---@field ['general.float_gaps'] integer|HL.CssGap
+---@field ['general.gaps_in'] integer|HL.CssGap
+---@field ['general.gaps_out'] integer|HL.CssGap
+---@field ['general.gaps_workspaces'] integer|boolean
+---@field ['general.hover_icon_on_border'] boolean
+---@field ['general.layout'] string
+---@field ['general.locale'] string
+---@field ['general.modal_parent_blocking'] boolean
+---@field ['general.no_focus_fallback'] boolean
+---@field ['general.resize_corner'] integer|boolean
+---@field ['general.resize_on_border'] boolean
+---@field ['general.snap.border_overlap'] boolean
+---@field ['general.snap.enabled'] boolean
+---@field ['general.snap.monitor_gap'] integer|boolean
+---@field ['general.snap.respect_gaps'] boolean
+---@field ['general.snap.window_gap'] integer|boolean
+---@field ['gestures.close_max_timeout'] integer|boolean
+---@field ['gestures.scrolling.move_snap_cursor'] boolean
+---@field ['gestures.scrolling.move_snap_to_grid'] boolean
+---@field ['gestures.workspace_swipe_cancel_ratio'] number|boolean
+---@field ['gestures.workspace_swipe_create_new'] boolean
+---@field ['gestures.workspace_swipe_direction_lock'] boolean
+---@field ['gestures.workspace_swipe_direction_lock_threshold'] integer|boolean
+---@field ['gestures.workspace_swipe_distance'] integer|boolean
+---@field ['gestures.workspace_swipe_forever'] boolean
+---@field ['gestures.workspace_swipe_invert'] boolean
+---@field ['gestures.workspace_swipe_min_speed_to_force'] integer|boolean
+---@field ['gestures.workspace_swipe_touch'] boolean
+---@field ['gestures.workspace_swipe_touch_invert'] boolean
+---@field ['gestures.workspace_swipe_use_r'] boolean
+---@field ['group.auto_group'] boolean
+---@field ['group.col.border_active'] string|HL.Gradient
+---@field ['group.col.border_inactive'] string|HL.Gradient
+---@field ['group.col.border_locked_active'] string|HL.Gradient
+---@field ['group.col.border_locked_inactive'] string|HL.Gradient
+---@field ['group.drag_into_group'] integer|boolean
+---@field ['group.focus_removed_window'] boolean
+---@field ['group.group_on_movetoworkspace'] boolean
+---@field ['group.groupbar.blur'] boolean
+---@field ['group.groupbar.col.active'] string|HL.Gradient
+---@field ['group.groupbar.col.inactive'] string|HL.Gradient
+---@field ['group.groupbar.col.locked_active'] string|HL.Gradient
+---@field ['group.groupbar.col.locked_inactive'] string|HL.Gradient
+---@field ['group.groupbar.disable_when_only'] boolean
+---@field ['group.groupbar.enabled'] boolean
+---@field ['group.groupbar.font_family'] string
+---@field ['group.groupbar.font_size'] integer|boolean
+---@field ['group.groupbar.font_weight_active'] integer|string
+---@field ['group.groupbar.font_weight_inactive'] integer|string
+---@field ['group.groupbar.gaps_in'] integer|boolean
+---@field ['group.groupbar.gaps_out'] integer|boolean
+---@field ['group.groupbar.gradient_round_only_edges'] boolean
+---@field ['group.groupbar.gradient_rounding'] integer|boolean
+---@field ['group.groupbar.gradient_rounding_power'] number|boolean
+---@field ['group.groupbar.gradients'] boolean
+---@field ['group.groupbar.height'] integer|boolean
+---@field ['group.groupbar.indicator_gap'] integer|boolean
+---@field ['group.groupbar.indicator_height'] integer|boolean
+---@field ['group.groupbar.keep_upper_gap'] boolean
+---@field ['group.groupbar.middle_click_close'] boolean
+---@field ['group.groupbar.priority'] integer|boolean
+---@field ['group.groupbar.render_titles'] boolean
+---@field ['group.groupbar.round_only_edges'] boolean
+---@field ['group.groupbar.rounding'] integer|boolean
+---@field ['group.groupbar.rounding_power'] number|boolean
+---@field ['group.groupbar.scrolling'] boolean
+---@field ['group.groupbar.stacked'] boolean
+---@field ['group.groupbar.text_color'] string
+---@field ['group.groupbar.text_color_inactive'] string
+---@field ['group.groupbar.text_color_locked_active'] string
+---@field ['group.groupbar.text_color_locked_inactive'] string
+---@field ['group.groupbar.text_offset'] integer|boolean
+---@field ['group.groupbar.text_padding'] integer|boolean
+---@field ['group.insert_after_current'] boolean
+---@field ['group.merge_floated_into_tiled_on_groupbar'] boolean
+---@field ['group.merge_groups_on_drag'] boolean
+---@field ['group.merge_groups_on_groupbar'] boolean
+---@field ['input.accel_profile'] string
+---@field ['input.emulate_discrete_scroll'] integer|boolean
+---@field ['input.float_switch_override_focus'] integer|boolean
+---@field ['input.focus_on_close'] integer|boolean
+---@field ['input.follow_mouse'] integer|boolean
+---@field ['input.follow_mouse_shrink'] integer|boolean
+---@field ['input.follow_mouse_threshold'] number|boolean
+---@field ['input.force_no_accel'] boolean
+---@field ['input.kb_file'] string
+---@field ['input.kb_layout'] string
+---@field ['input.kb_model'] string
+---@field ['input.kb_options'] string
+---@field ['input.kb_rules'] string
+---@field ['input.kb_variant'] string
+---@field ['input.left_handed'] boolean
+---@field ['input.mouse_refocus'] boolean
+---@field ['input.natural_scroll'] boolean
+---@field ['input.numlock_by_default'] boolean
+---@field ['input.off_window_axis_events'] integer|boolean
+---@field ['input.repeat_delay'] integer|boolean
+---@field ['input.repeat_rate'] integer|boolean
+---@field ['input.resolve_binds_by_sym'] boolean
+---@field ['input.rotation'] integer|boolean
+---@field ['input.scroll_button'] integer|boolean
+---@field ['input.scroll_button_lock'] boolean
+---@field ['input.scroll_factor'] number|boolean
+---@field ['input.scroll_method'] string
+---@field ['input.scroll_points'] string
+---@field ['input.sensitivity'] number|boolean
+---@field ['input.special_fallthrough'] boolean
+---@field ['input.tablet.absolute_region_position'] boolean
+---@field ['input.tablet.active_area_position'] HL.Vec2Like
+---@field ['input.tablet.active_area_size'] HL.Vec2Like
+---@field ['input.tablet.left_handed'] boolean
+---@field ['input.tablet.output'] string
+---@field ['input.tablet.region_position'] HL.Vec2Like
+---@field ['input.tablet.region_size'] HL.Vec2Like
+---@field ['input.tablet.relative_input'] boolean
+---@field ['input.tablet.transform'] integer|boolean
+---@field ['input.tablettool.eraser_button_mode'] integer|boolean
+---@field ['input.tablettool.eraser_button_override'] integer|boolean
+---@field ['input.tablettool.pressure_range_max'] number|boolean
+---@field ['input.tablettool.pressure_range_min'] number|boolean
+---@field ['input.touchdevice.enabled'] boolean
+---@field ['input.touchdevice.output'] string
+---@field ['input.touchdevice.transform'] integer|boolean
+---@field ['input.touchpad.clickfinger_behavior'] boolean
+---@field ['input.touchpad.disable_while_typing'] boolean
+---@field ['input.touchpad.drag_3fg'] integer|boolean
+---@field ['input.touchpad.drag_lock'] integer|boolean
+---@field ['input.touchpad.flip_x'] boolean
+---@field ['input.touchpad.flip_y'] boolean
+---@field ['input.touchpad.middle_button_emulation'] boolean
+---@field ['input.touchpad.natural_scroll'] boolean
+---@field ['input.touchpad.scroll_factor'] number|boolean
+---@field ['input.touchpad.tap_and_drag'] boolean
+---@field ['input.touchpad.tap_button_map'] string
+---@field ['input.touchpad.tap_to_click'] boolean
+---@field ['input.virtualkeyboard.release_pressed_on_close'] boolean
+---@field ['input.virtualkeyboard.share_states'] integer|boolean
+---@field ['input_capture.capture_modifiers'] boolean
+---@field ['input_capture.enforce_barriers'] boolean
+---@field ['layout.single_window_aspect_ratio'] HL.Vec2Like
+---@field ['layout.single_window_aspect_ratio_tolerance'] number|boolean
+---@field ['master.allow_small_split'] boolean
+---@field ['master.always_keep_position'] boolean
+---@field ['master.center_ignores_reserved'] boolean
+---@field ['master.center_master_fallback'] string
+---@field ['master.drop_at_cursor'] boolean
+---@field ['master.focus_master_on_close'] boolean
+---@field ['master.mfact'] number|boolean
+---@field ['master.new_on_active'] string
+---@field ['master.new_on_top'] boolean
+---@field ['master.new_status'] string
+---@field ['master.orientation'] string
+---@field ['master.slave_count_for_center_master'] integer|boolean
+---@field ['master.smart_resizing'] boolean
+---@field ['master.special_scale_factor'] number|boolean
+---@field ['misc.allow_session_lock_restore'] boolean
+---@field ['misc.always_follow_on_dnd'] boolean
+---@field ['misc.animate_manual_resizes'] boolean
+---@field ['misc.animate_mouse_windowdragging'] boolean
+---@field ['misc.anr_missed_pings'] integer|boolean
+---@field ['misc.background_color'] string
+---@field ['misc.close_special_on_empty'] boolean
+---@field ['misc.col.splash'] string
+---@field ['misc.disable_autoreload'] boolean
+---@field ['misc.disable_hyprland_guiutils_check'] boolean
+---@field ['misc.disable_hyprland_logo'] boolean
+---@field ['misc.disable_scale_notification'] boolean
+---@field ['misc.disable_splash_rendering'] boolean
+---@field ['misc.disable_watchdog_warning'] boolean
+---@field ['misc.disable_xdg_env_checks'] boolean
+---@field ['misc.enable_anr_dialog'] boolean
+---@field ['misc.enable_swallow'] boolean
+---@field ['misc.exit_window_retains_fullscreen'] boolean
+---@field ['misc.focus_on_activate'] boolean
+---@field ['misc.font_family'] string
+---@field ['misc.force_default_wallpaper'] integer|boolean
+---@field ['misc.initial_workspace_token_timeout'] integer|boolean
+---@field ['misc.initial_workspace_tracking'] integer|boolean
+---@field ['misc.key_press_enables_dpms'] boolean
+---@field ['misc.layers_hog_keyboard_focus'] boolean
+---@field ['misc.lockdead_screen_delay'] integer|boolean
+---@field ['misc.middle_click_paste'] boolean
+---@field ['misc.mouse_move_enables_dpms'] boolean
+---@field ['misc.mouse_move_focuses_monitor'] boolean
+---@field ['misc.name_vk_after_proc'] boolean
+---@field ['misc.on_focus_under_fullscreen'] integer|boolean
+---@field ['misc.render_unfocused_fps'] integer|boolean
+---@field ['misc.screencopy_force_8b'] boolean
+---@field ['misc.session_lock_blur'] boolean
+---@field ['misc.session_lock_xray'] boolean
+---@field ['misc.size_limits_tiled'] boolean
+---@field ['misc.splash_font_family'] string
+---@field ['misc.swallow_exception_regex'] string
+---@field ['misc.swallow_regex'] string
+---@field ['misc.vrr'] integer|boolean
+---@field ['opengl.nvidia_anti_flicker'] boolean
+---@field ['quirks.prefer_hdr'] integer|boolean
+---@field ['quirks.skip_non_kms_dmabuf_formats'] boolean
+---@field ['render.cm_auto_hdr'] integer|boolean
+---@field ['render.cm_enabled'] boolean
+---@field ['render.cm_sdr_eotf'] string
+---@field ['render.commit_timing_enabled'] boolean
+---@field ['render.ctm_animation'] integer|boolean
+---@field ['render.direct_scanout'] integer|boolean
+---@field ['render.expand_undersized_textures'] boolean
+---@field ['render.fp16_sdr_tf'] integer|boolean
+---@field ['render.icc_vcgt_enabled'] boolean
+---@field ['render.keep_unmodified_copy'] integer|boolean
+---@field ['render.new_render_scheduling'] boolean
+---@field ['render.non_shader_cm'] integer|boolean
+---@field ['render.non_shader_cm_interop'] integer|boolean
+---@field ['render.send_content_type'] boolean
+---@field ['render.use_fp16'] integer|boolean
+---@field ['render.use_shader_blur_blend'] boolean
+---@field ['render.xp_mode'] boolean
+---@field ['scrolling.column_width'] number|boolean
+---@field ['scrolling.direction'] string
+---@field ['scrolling.explicit_column_widths'] string
+---@field ['scrolling.focus_fit_method'] integer|boolean
+---@field ['scrolling.follow_focus'] boolean
+---@field ['scrolling.follow_min_visible'] number|boolean
+---@field ['scrolling.fullscreen_on_one_column'] boolean
+---@field ['scrolling.wrap_focus'] boolean
+---@field ['scrolling.wrap_swapcol'] boolean
+---@field ['xwayland.create_abstract_socket'] boolean
+---@field ['xwayland.enabled'] boolean
+---@field ['xwayland.force_zero_scaling'] boolean
+---@field ['xwayland.use_nearest_neighbor'] boolean
+local __HL_ConfigValueTypes = {}
+
+
+---@class HL.ConfigOpt
+---@field general? HL.ConfigOpt.General
+---@field decoration? HL.ConfigOpt.Decoration
+---@field animations? HL.ConfigOpt.Animations
+---@field input? HL.ConfigOpt.Input
+---@field gestures? HL.ConfigOpt.Gestures
+---@field group? HL.ConfigOpt.Group
+---@field misc? HL.ConfigOpt.Misc
+---@field binds? HL.ConfigOpt.Binds
+---@field xwayland? HL.ConfigOpt.Xwayland
+---@field opengl? HL.ConfigOpt.OpenGL
+---@field render? HL.ConfigOpt.Render
+---@field cursor? HL.ConfigOpt.Cursor
+---@field ecosystem? HL.ConfigOpt.Ecosystem
+---@field debug? HL.ConfigOpt.Debug
+---@field layout? HL.ConfigOpt.Layout
+---@field dwindle? HL.ConfigOpt.Dwindle
+---@field master? HL.ConfigOpt.Master
+---@field scrolling? HL.ConfigOpt.Scrolling
+---@field experimental? HL.ConfigOpt.Experimental
+---@field input_capture? HL.ConfigOpt.InputCapture
+---@field quirks? HL.ConfigOpt.Quirks
+
+---@class HL.ConfigOpt.General
+---@field border_size? integer|boolean
+---@field gaps_in? integer|HL.CssGap
+---@field gaps_out? integer|HL.CssGap
+---@field float_gaps? integer|HL.CssGap
+---@field gaps_workspaces? integer|boolean
+---@field col? HL.ConfigOpt.General.Col
+---@field layout? string
+---@field no_focus_fallback? boolean
+---@field resize_on_border? boolean
+---@field extend_border_grab_area? integer|boolean
+---@field hover_icon_on_border? boolean
+---@field allow_tearing? boolean
+---@field resize_corner? integer|boolean
+---@field snap? HL.ConfigOpt.General.Snap
+---@field modal_parent_blocking? boolean
+---@field locale? string
+
+---@class HL.ConfigOpt.General.Col
+---@field inactive_border? string|HL.Gradient
+---@field active_border? string|HL.Gradient
+---@field nogroup_border? string|HL.Gradient
+---@field nogroup_border_active? string|HL.Gradient
+
+---@class HL.ConfigOpt.General.Snap
+---@field enabled? boolean
+---@field window_gap? integer|boolean
+---@field monitor_gap? integer|boolean
+---@field border_overlap? boolean
+---@field respect_gaps? boolean
+
+---@class HL.ConfigOpt.Decoration
+---@field rounding? integer|boolean
+---@field rounding_power? number|boolean
+---@field active_opacity? number|boolean
+---@field inactive_opacity? number|boolean
+---@field fullscreen_opacity? number|boolean
+---@field shadow? HL.ConfigOpt.Decoration.Shadow
+---@field glow? HL.ConfigOpt.Decoration.Glow
+---@field dim_modal? boolean
+---@field dim_inactive? boolean
+---@field dim_strength? number|boolean
+---@field dim_special? number|boolean
+---@field dim_around? number|boolean
+---@field screen_shader? string
+---@field border_part_of_window? boolean
+---@field blur? HL.ConfigOpt.Decoration.Blur
+---@field motion_blur? HL.ConfigOpt.Decoration.MotionBlur
+
+---@class HL.ConfigOpt.Decoration.Shadow
+---@field enabled? boolean
+---@field range? integer|boolean
+---@field render_power? integer|boolean
+---@field sharp? boolean
+---@field color? string|HL.Gradient
+---@field color_inactive? string|HL.Gradient
+---@field offset? HL.Vec2Like
+---@field scale? number|boolean
+
+---@class HL.ConfigOpt.Decoration.Glow
+---@field enabled? boolean
+---@field range? integer|boolean
+---@field render_power? integer|boolean
+---@field color? string|HL.Gradient
+---@field color_inactive? string|HL.Gradient
+
+---@class HL.ConfigOpt.Decoration.Blur
+---@field enabled? boolean
+---@field size? integer|boolean
+---@field passes? integer|boolean
+---@field ignore_opacity? boolean
+---@field new_optimizations? boolean
+---@field xray? boolean
+---@field noise? number|boolean
+---@field contrast? number|boolean
+---@field brightness? number|boolean
+---@field vibrancy? number|boolean
+---@field vibrancy_darkness? number|boolean
+---@field special? boolean
+---@field popups? boolean
+---@field popups_ignorealpha? number|boolean
+---@field input_methods? boolean
+---@field input_methods_ignorealpha? number|boolean
+
+---@class HL.ConfigOpt.Decoration.MotionBlur
+---@field enabled? boolean
+---@field samples? integer|boolean
+
+---@class HL.ConfigOpt.Animations
+---@field enabled? boolean
+---@field workspace_wraparound? boolean
+
+---@class HL.ConfigOpt.Input
+---@field kb_model? string
+---@field kb_layout? string
+---@field kb_variant? string
+---@field kb_options? string
+---@field kb_rules? string
+---@field kb_file? string
+---@field numlock_by_default? boolean
+---@field resolve_binds_by_sym? boolean
+---@field repeat_rate? integer|boolean
+---@field repeat_delay? integer|boolean
+---@field sensitivity? number|boolean
+---@field accel_profile? string
+---@field force_no_accel? boolean
+---@field rotation? integer|boolean
+---@field left_handed? boolean
+---@field scroll_points? string
+---@field scroll_method? string
+---@field scroll_button? integer|boolean
+---@field scroll_button_lock? boolean
+---@field scroll_factor? number|boolean
+---@field natural_scroll? boolean
+---@field follow_mouse? integer|boolean
+---@field follow_mouse_threshold? number|boolean
+---@field focus_on_close? integer|boolean
+---@field mouse_refocus? boolean
+---@field float_switch_override_focus? integer|boolean
+---@field special_fallthrough? boolean
+---@field off_window_axis_events? integer|boolean
+---@field emulate_discrete_scroll? integer|boolean
+---@field follow_mouse_shrink? integer|boolean
+---@field touchpad? HL.ConfigOpt.Input.Touchpad
+---@field touchdevice? HL.ConfigOpt.Input.Touchdevice
+---@field virtualkeyboard? HL.ConfigOpt.Input.Virtualkeyboard
+---@field tablet? HL.ConfigOpt.Input.Tablet
+---@field tablettool? HL.ConfigOpt.Input.Tablettool
+
+---@class HL.ConfigOpt.Input.Touchpad
+---@field disable_while_typing? boolean
+---@field natural_scroll? boolean
+---@field scroll_factor? number|boolean
+---@field middle_button_emulation? boolean
+---@field tap_button_map? string
+---@field clickfinger_behavior? boolean
+---@field tap_to_click? boolean
+---@field drag_lock? integer|boolean
+---@field tap_and_drag? boolean
+---@field flip_x? boolean
+---@field flip_y? boolean
+---@field drag_3fg? integer|boolean
+
+---@class HL.ConfigOpt.Input.Touchdevice
+---@field transform? integer|boolean
+---@field output? string
+---@field enabled? boolean
+
+---@class HL.ConfigOpt.Input.Virtualkeyboard
+---@field share_states? integer|boolean
+---@field release_pressed_on_close? boolean
+
+---@class HL.ConfigOpt.Input.Tablet
+---@field transform? integer|boolean
+---@field output? string
+---@field region_position? HL.Vec2Like
+---@field absolute_region_position? boolean
+---@field region_size? HL.Vec2Like
+---@field relative_input? boolean
+---@field left_handed? boolean
+---@field active_area_size? HL.Vec2Like
+---@field active_area_position? HL.Vec2Like
+
+---@class HL.ConfigOpt.Input.Tablettool
+---@field eraser_button_mode? integer|boolean
+---@field eraser_button_override? integer|boolean
+---@field pressure_range_min? number|boolean
+---@field pressure_range_max? number|boolean
+
+---@class HL.ConfigOpt.Gestures
+---@field workspace_swipe_distance? integer|boolean
+---@field workspace_swipe_touch? boolean
+---@field workspace_swipe_invert? boolean
+---@field workspace_swipe_touch_invert? boolean
+---@field workspace_swipe_min_speed_to_force? integer|boolean
+---@field workspace_swipe_cancel_ratio? number|boolean
+---@field workspace_swipe_create_new? boolean
+---@field workspace_swipe_direction_lock? boolean
+---@field workspace_swipe_direction_lock_threshold? integer|boolean
+---@field workspace_swipe_forever? boolean
+---@field workspace_swipe_use_r? boolean
+---@field close_max_timeout? integer|boolean
+---@field scrolling? HL.ConfigOpt.Gestures.Scrolling
+
+---@class HL.ConfigOpt.Gestures.Scrolling
+---@field move_snap_to_grid? boolean
+---@field move_snap_cursor? boolean
+
+---@class HL.ConfigOpt.Group
+---@field insert_after_current? boolean
+---@field focus_removed_window? boolean
+---@field merge_groups_on_drag? boolean
+---@field merge_groups_on_groupbar? boolean
+---@field col? HL.ConfigOpt.Group.Col
+---@field auto_group? boolean
+---@field drag_into_group? integer|boolean
+---@field merge_floated_into_tiled_on_groupbar? boolean
+---@field group_on_movetoworkspace? boolean
+---@field groupbar? HL.ConfigOpt.Group.Groupbar
+
+---@class HL.ConfigOpt.Group.Col
+---@field border_active? string|HL.Gradient
+---@field border_inactive? string|HL.Gradient
+---@field border_locked_inactive? string|HL.Gradient
+---@field border_locked_active? string|HL.Gradient
+
+---@class HL.ConfigOpt.Group.Groupbar
+---@field enabled? boolean
+---@field disable_when_only? boolean
+---@field font_family? string
+---@field font_weight_active? integer|string
+---@field font_weight_inactive? integer|string
+---@field font_size? integer|boolean
+---@field gradients? boolean
+---@field height? integer|boolean
+---@field indicator_gap? integer|boolean
+---@field indicator_height? integer|boolean
+---@field stacked? boolean
+---@field priority? integer|boolean
+---@field render_titles? boolean
+---@field scrolling? boolean
+---@field middle_click_close? boolean
+---@field rounding? integer|boolean
+---@field rounding_power? number|boolean
+---@field gradient_rounding? integer|boolean
+---@field gradient_rounding_power? number|boolean
+---@field round_only_edges? boolean
+---@field gradient_round_only_edges? boolean
+---@field text_color? string
+---@field text_color_inactive? string
+---@field text_color_locked_active? string
+---@field text_color_locked_inactive? string
+---@field col? HL.ConfigOpt.Group.Groupbar.Col
+---@field gaps_out? integer|boolean
+---@field gaps_in? integer|boolean
+---@field keep_upper_gap? boolean
+---@field text_offset? integer|boolean
+---@field text_padding? integer|boolean
+---@field blur? boolean
+
+---@class HL.ConfigOpt.Group.Groupbar.Col
+---@field active? string|HL.Gradient
+---@field inactive? string|HL.Gradient
+---@field locked_active? string|HL.Gradient
+---@field locked_inactive? string|HL.Gradient
+
+---@class HL.ConfigOpt.Misc
+---@field disable_hyprland_logo? boolean
+---@field disable_splash_rendering? boolean
+---@field col? HL.ConfigOpt.Misc.Col
+---@field font_family? string
+---@field splash_font_family? string
+---@field force_default_wallpaper? integer|boolean
+---@field vrr? integer|boolean
+---@field mouse_move_enables_dpms? boolean
+---@field key_press_enables_dpms? boolean
+---@field name_vk_after_proc? boolean
+---@field always_follow_on_dnd? boolean
+---@field layers_hog_keyboard_focus? boolean
+---@field animate_manual_resizes? boolean
+---@field animate_mouse_windowdragging? boolean
+---@field disable_autoreload? boolean
+---@field enable_swallow? boolean
+---@field swallow_regex? string
+---@field swallow_exception_regex? string
+---@field focus_on_activate? boolean
+---@field mouse_move_focuses_monitor? boolean
+---@field allow_session_lock_restore? boolean
+---@field session_lock_xray? boolean
+---@field session_lock_blur? boolean
+---@field background_color? string
+---@field close_special_on_empty? boolean
+---@field on_focus_under_fullscreen? integer|boolean
+---@field exit_window_retains_fullscreen? boolean
+---@field initial_workspace_tracking? integer|boolean
+---@field initial_workspace_token_timeout? integer|boolean
+---@field middle_click_paste? boolean
+---@field render_unfocused_fps? integer|boolean
+---@field disable_xdg_env_checks? boolean
+---@field disable_hyprland_guiutils_check? boolean
+---@field disable_watchdog_warning? boolean
+---@field lockdead_screen_delay? integer|boolean
+---@field enable_anr_dialog? boolean
+---@field anr_missed_pings? integer|boolean
+---@field screencopy_force_8b? boolean
+---@field disable_scale_notification? boolean
+---@field size_limits_tiled? boolean
+
+---@class HL.ConfigOpt.Misc.Col
+---@field splash? string
+
+---@class HL.ConfigOpt.Binds
+---@field pass_mouse_when_bound? boolean
+---@field scroll_event_delay? integer|boolean
+---@field workspace_back_and_forth? boolean
+---@field hide_special_on_workspace_change? boolean
+---@field allow_workspace_cycles? boolean
+---@field workspace_center_on? integer|boolean
+---@field focus_preferred_method? integer|boolean
+---@field ignore_group_lock? boolean
+---@field movefocus_cycles_fullscreen? boolean
+---@field movefocus_cycles_groupfirst? boolean
+---@field disable_keybind_grabbing? boolean
+---@field window_direction_monitor_fallback? boolean
+---@field allow_pin_fullscreen? boolean
+---@field drag_threshold? integer|boolean
+
+---@class HL.ConfigOpt.Xwayland
+---@field enabled? boolean
+---@field use_nearest_neighbor? boolean
+---@field force_zero_scaling? boolean
+---@field create_abstract_socket? boolean
+
+---@class HL.ConfigOpt.OpenGL
+---@field nvidia_anti_flicker? boolean
+
+---@class HL.ConfigOpt.Render
+---@field direct_scanout? integer|boolean
+---@field expand_undersized_textures? boolean
+---@field xp_mode? boolean
+---@field ctm_animation? integer|boolean
+---@field cm_enabled? boolean
+---@field send_content_type? boolean
+---@field cm_auto_hdr? integer|boolean
+---@field new_render_scheduling? boolean
+---@field non_shader_cm? integer|boolean
+---@field cm_sdr_eotf? string
+---@field commit_timing_enabled? boolean
+---@field icc_vcgt_enabled? boolean
+---@field use_shader_blur_blend? boolean
+---@field use_fp16? integer|boolean
+---@field keep_unmodified_copy? integer|boolean
+---@field non_shader_cm_interop? integer|boolean
+---@field fp16_sdr_tf? integer|boolean
+
+---@class HL.ConfigOpt.Cursor
+---@field invisible? boolean
+---@field no_hardware_cursors? integer|boolean
+---@field no_break_fs_vrr? integer|boolean
+---@field min_refresh_rate? integer|boolean
+---@field hotspot_padding? integer|boolean
+---@field inactive_timeout? number|boolean
+---@field no_warps? boolean
+---@field persistent_warps? boolean
+---@field warp_on_change_workspace? integer|boolean
+---@field warp_on_toggle_special? integer|boolean
+---@field default_monitor? string
+---@field zoom_factor? number|boolean
+---@field zoom_rigid? boolean
+---@field zoom_disable_aa? boolean
+---@field zoom_detached_camera? boolean
+---@field enable_hyprcursor? boolean
+---@field hide_on_key_press? boolean
+---@field hide_on_touch? boolean
+---@field hide_on_tablet? boolean
+---@field use_cpu_buffer? integer|boolean
+---@field sync_gsettings_theme? boolean
+---@field warp_back_after_non_mouse_input? boolean
+
+---@class HL.ConfigOpt.Ecosystem
+---@field no_update_news? boolean
+---@field no_donation_nag? boolean
+---@field enforce_permissions? boolean
+
+---@class HL.ConfigOpt.Debug
+---@field overlay? boolean
+---@field damage_blink? boolean
+---@field gl_debugging? boolean
+---@field disable_logs? boolean
+---@field disable_time? boolean
+---@field damage_tracking? integer|boolean
+---@field enable_stdout_logs? boolean
+---@field manual_crash? integer|boolean
+---@field suppress_errors? boolean
+---@field disable_scale_checks? boolean
+---@field error_limit? integer|boolean
+---@field error_position? integer|boolean
+---@field colored_stdout_logs? boolean
+---@field log_damage? boolean
+---@field pass? boolean
+---@field full_cm_proto? boolean
+---@field ds_handle_same_buffer? boolean
+---@field ds_handle_same_buffer_fifo? boolean
+---@field fifo_pending_workaround? boolean
+---@field render_solitary_wo_damage? boolean
+---@field vfr? boolean
+---@field invalidate_fp16? integer|boolean
+
+---@class HL.ConfigOpt.Layout
+---@field single_window_aspect_ratio? HL.Vec2Like
+---@field single_window_aspect_ratio_tolerance? number|boolean
+
+---@class HL.ConfigOpt.Dwindle
+---@field force_split? integer|boolean
+---@field preserve_split? boolean
+---@field smart_split? boolean
+---@field smart_resizing? boolean
+---@field permanent_direction_override? boolean
+---@field special_scale_factor? number|boolean
+---@field split_width_multiplier? number|boolean
+---@field use_active_for_splits? boolean
+---@field default_split_ratio? number|boolean
+---@field split_bias? integer|boolean
+---@field precise_mouse_move? boolean
+
+---@class HL.ConfigOpt.Master
+---@field allow_small_split? boolean
+---@field special_scale_factor? number|boolean
+---@field mfact? number|boolean
+---@field new_status? string
+---@field new_on_top? boolean
+---@field new_on_active? string
+---@field orientation? string
+---@field slave_count_for_center_master? integer|boolean
+---@field center_master_fallback? string
+---@field center_ignores_reserved? boolean
+---@field smart_resizing? boolean
+---@field drop_at_cursor? boolean
+---@field always_keep_position? boolean
+---@field focus_master_on_close? boolean
+
+---@class HL.ConfigOpt.Scrolling
+---@field fullscreen_on_one_column? boolean
+---@field column_width? number|boolean
+---@field focus_fit_method? integer|boolean
+---@field follow_focus? boolean
+---@field follow_min_visible? number|boolean
+---@field explicit_column_widths? string
+---@field direction? string
+---@field wrap_focus? boolean
+---@field wrap_swapcol? boolean
+
+---@class HL.ConfigOpt.Experimental
+---@field wp_cm_1_2? boolean
+
+---@class HL.ConfigOpt.InputCapture
+---@field capture_modifiers? boolean
+---@field enforce_barriers? boolean
+
+---@class HL.ConfigOpt.Quirks
+---@field prefer_hdr? integer|boolean
+---@field skip_non_kms_dmabuf_formats? boolean%   
+
+--------------------------------------------------------------
+
+-- This is an example Hyprland Lua config file.
+-- Refer to the wiki for more information.
+-- https://wiki.hypr.land/Configuring/Start/
+
+-- Please note not all available settings / options are set here.
+-- For a full list, see the wiki
+
+-- You can (and should!!) split this configuration into multiple files
+-- Create your files separately and then require them like this:
+-- require("myColors")
+
+
+------------------
+---- MONITORS ----
+------------------
+
+-- See https://wiki.hypr.land/Configuring/Basics/Monitors/
+hl.monitor({
+    output   = "",
+    mode     = "preferred",
+    position = "auto",
+    scale    = "auto",
+})
+
+
+---------------------
+---- MY PROGRAMS ----
+---------------------
+
+-- Set programs that you use
+local terminal    = "kitty"
+local fileManager = "dolphin"
+local menu        = "hyprlauncher"
+
+
+-------------------
+---- AUTOSTART ----
+-------------------
+
+-- See https://wiki.hypr.land/Configuring/Basics/Autostart/
+
+-- Autostart necessary processes (like notifications daemons, status bars, etc.)
+-- Or execute your favorite apps at launch like this:
+--
+-- hl.on("hyprland.start", function () 
+--   hl.exec_cmd(terminal)
+--   hl.exec_cmd("nm-applet")
+--   hl.exec_cmd("waybar & hyprpaper & firefox")
+-- end)
+
+
+-------------------------------
+---- ENVIRONMENT VARIABLES ----
+-------------------------------
+
+-- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Environment-variables/
+
+hl.env("XCURSOR_SIZE", "24")
+hl.env("HYPRCURSOR_SIZE", "24")
+
+
+-----------------------
+----- PERMISSIONS -----
+-----------------------
+
+-- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Permissions/
+-- Please note permission changes here require a Hyprland restart and are not applied on-the-fly
+-- for security reasons
+
+-- hl.config({
+--   ecosystem = {
+--     enforce_permissions = true,
+--   },
+-- })
+
+-- hl.permission("/usr/(bin|local/bin)/grim", "screencopy", "allow")
+-- hl.permission("/usr/(lib|libexec|lib64)/xdg-desktop-portal-hyprland", "screencopy", "allow")
+-- hl.permission("/usr/(bin|local/bin)/hyprpm", "plugin", "allow")
+
+
+-----------------------
+---- LOOK AND FEEL ----
+-----------------------
+
+-- Refer to https://wiki.hypr.land/Configuring/Basics/Variables/
+hl.config({
+    general = {
+        gaps_in  = 5,
+        gaps_out = 20,
+
+        border_size = 2,
+
+        col = {
+            active_border   = { colors = {"rgba(33ccffee)", "rgba(00ff99ee)"}, angle = 45 },
+            inactive_border = "rgba(595959aa)",
+        },
+
+        -- Set to true to enable resizing windows by clicking and dragging on borders and gaps
+        resize_on_border = false,
+
+        -- Please see https://wiki.hypr.land/Configuring/Advanced-and-Cool/Tearing/ before you turn this on
+        allow_tearing = false,
+
+        layout = "dwindle",
+    },
+
+    decoration = {
+        rounding       = 10,
+        rounding_power = 2,
+
+        -- Change transparency of focused and unfocused windows
+        active_opacity   = 1.0,
+        inactive_opacity = 1.0,
+
+        shadow = {
+            enabled      = true,
+            range        = 4,
+            render_power = 3,
+            color        = 0xee1a1a1a,
+        },
+
+        blur = {
+            enabled   = true,
+            size      = 3,
+            passes    = 1,
+            vibrancy  = 0.1696,
+        },
+    },
+
+    animations = {
+        enabled = true,
+    },
+})
+
+-- Default curves and animations, see https://wiki.hypr.land/Configuring/Advanced-and-Cool/Animations/
+hl.curve("easeOutQuint",   { type = "bezier", points = { {0.23, 1},    {0.32, 1}    } })
+hl.curve("easeInOutCubic", { type = "bezier", points = { {0.65, 0.05}, {0.36, 1}    } })
+hl.curve("linear",         { type = "bezier", points = { {0, 0},       {1, 1}       } })
+hl.curve("almostLinear",   { type = "bezier", points = { {0.5, 0.5},   {0.75, 1}    } })
+hl.curve("quick",          { type = "bezier", points = { {0.15, 0},    {0.1, 1}     } })
+
+-- Default springs
+hl.curve("easy",           { type = "spring", mass = 1, stiffness = 71.2633, dampening = 15.8273644 })
+
+hl.animation({ leaf = "global",        enabled = true,  speed = 10,   bezier = "default" })
+hl.animation({ leaf = "border",        enabled = true,  speed = 5.39, bezier = "easeOutQuint" })
+hl.animation({ leaf = "windows",       enabled = true,  speed = 4.79, spring = "easy" })
+hl.animation({ leaf = "windowsIn",     enabled = true,  speed = 4.1,  spring = "easy",         style = "popin 87%" })
+hl.animation({ leaf = "windowsOut",    enabled = true,  speed = 1.49, bezier = "linear",       style = "popin 87%" })
+hl.animation({ leaf = "fadeIn",        enabled = true,  speed = 1.73, bezier = "almostLinear" })
+hl.animation({ leaf = "fadeOut",       enabled = true,  speed = 1.46, bezier = "almostLinear" })
+hl.animation({ leaf = "fade",          enabled = true,  speed = 3.03, bezier = "quick" })
+hl.animation({ leaf = "layers",        enabled = true,  speed = 3.81, bezier = "easeOutQuint" })
+hl.animation({ leaf = "layersIn",      enabled = true,  speed = 4,    bezier = "easeOutQuint", style = "fade" })
+hl.animation({ leaf = "layersOut",     enabled = true,  speed = 1.5,  bezier = "linear",       style = "fade" })
+hl.animation({ leaf = "fadeLayersIn",  enabled = true,  speed = 1.79, bezier = "almostLinear" })
+hl.animation({ leaf = "fadeLayersOut", enabled = true,  speed = 1.39, bezier = "almostLinear" })
+hl.animation({ leaf = "workspaces",    enabled = true,  speed = 1.94, bezier = "almostLinear", style = "fade" })
+hl.animation({ leaf = "workspacesIn",  enabled = true,  speed = 1.21, bezier = "almostLinear", style = "fade" })
+hl.animation({ leaf = "workspacesOut", enabled = true,  speed = 1.94, bezier = "almostLinear", style = "fade" })
+hl.animation({ leaf = "zoomFactor",    enabled = true,  speed = 7,    bezier = "quick" })
+
+-- Ref https://wiki.hypr.land/Configuring/Basics/Workspace-Rules/
+-- "Smart gaps" / "No gaps when only"
+-- uncomment all if you wish to use that.
+-- hl.workspace_rule({ workspace = "w[tv1]", gaps_out = 0, gaps_in = 0 })
+-- hl.workspace_rule({ workspace = "f[1]",   gaps_out = 0, gaps_in = 0 })
+-- hl.window_rule({
+--     name  = "no-gaps-wtv1",
+--     match = { float = false, workspace = "w[tv1]" },
+--     border_size = 0,
+--     rounding    = 0,
+-- })
+-- hl.window_rule({
+--     name  = "no-gaps-f1",
+--     match = { float = false, workspace = "f[1]" },
+--     border_size = 0,
+--     rounding    = 0,
+-- })
+
+-- See https://wiki.hypr.land/Configuring/Layouts/Dwindle-Layout/ for more
+hl.config({
+    dwindle = {
+        preserve_split = true, -- You probably want this
+    },
+})
+
+-- See https://wiki.hypr.land/Configuring/Layouts/Master-Layout/ for more
+hl.config({
+    master = {
+        new_status = "master",
+    },
+})
+
+-- See https://wiki.hypr.land/Configuring/Layouts/Scrolling-Layout/ for more
+hl.config({
+    scrolling = {
+        fullscreen_on_one_column = true,
+    },
+})
+
+----------------
+----  MISC  ----
+----------------
+
+hl.config({
+    misc = {
+        force_default_wallpaper = -1,    -- Set to 0 or 1 to disable the anime mascot wallpapers
+        disable_hyprland_logo   = false, -- If true disables the random hyprland logo / anime girl background. :(
+    },
+})
+
+
+---------------
+---- INPUT ----
+---------------
+
+hl.config({
+    input = {
+        kb_layout  = "us",
+        kb_variant = "",
+        kb_model   = "",
+        kb_options = "",
+        kb_rules   = "",
+
+        follow_mouse = 1,
+
+        sensitivity = 0, -- -1.0 - 1.0, 0 means no modification.
+
+        touchpad = {
+            natural_scroll = false,
+        },
+    },
+})
+
+hl.gesture({
+    fingers = 3,
+    direction = "horizontal",
+    action = "workspace"
+})
+
+-- Example per-device config
+-- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Devices/ for more
+hl.device({
+    name        = "epic-mouse-v1",
+    sensitivity = -0.5,
+})
+
+
+---------------------
+---- KEYBINDINGS ----
+---------------------
+
+local mainMod = "SUPER" -- Sets "Windows" key as main modifier
+
+-- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
+hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
+local closeWindowBind = hl.bind(mainMod .. " + C", hl.dsp.window.close())
+-- closeWindowBind:set_enabled(false)
+hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
+hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
+hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
+hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
+hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
+hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
+
+-- Move focus with mainMod + arrow keys
+hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))
+hl.bind(mainMod .. " + right", hl.dsp.focus({ direction = "right" }))
+hl.bind(mainMod .. " + up",    hl.dsp.focus({ direction = "up" }))
+hl.bind(mainMod .. " + down",  hl.dsp.focus({ direction = "down" }))
+
+-- Switch workspaces with mainMod + [0-9]
+-- Move active window to a workspace with mainMod + SHIFT + [0-9]
+for i = 1, 10 do
+    local key = i % 10 -- 10 maps to key 0
+    hl.bind(mainMod .. " + " .. key,             hl.dsp.focus({ workspace = i}))
+    hl.bind(mainMod .. " + SHIFT + " .. key,     hl.dsp.window.move({ workspace = i }))
+end
+
+-- Example special workspace (scratchpad)
+hl.bind(mainMod .. " + S",         hl.dsp.workspace.toggle_special("magic"))
+hl.bind(mainMod .. " + SHIFT + S", hl.dsp.window.move({ workspace = "special:magic" }))
+
+-- Scroll through existing workspaces with mainMod + scroll
+hl.bind(mainMod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))
+hl.bind(mainMod .. " + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
+
+-- Move/resize windows with mainMod + LMB/RMB and dragging
+hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
+hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
+
+-- Laptop multimedia keys for volume and LCD brightness
+hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+"), { locked = true, repeating = true })
+hl.bind("XF86AudioLowerVolume", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"),      { locked = true, repeating = true })
+hl.bind("XF86AudioMute",        hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"),     { locked = true, repeating = true })
+hl.bind("XF86AudioMicMute",     hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"),   { locked = true, repeating = true })
+hl.bind("XF86MonBrightnessUp",  hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%+"),                  { locked = true, repeating = true })
+hl.bind("XF86MonBrightnessDown",hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%-"),                  { locked = true, repeating = true })
+
+-- Requires playerctl
+hl.bind("XF86AudioNext",  hl.dsp.exec_cmd("playerctl next"),       { locked = true })
+hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
+hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
+hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
+
+
+--------------------------------
+---- WINDOWS AND WORKSPACES ----
+--------------------------------
+
+-- See https://wiki.hypr.land/Configuring/Basics/Window-Rules/
+-- and https://wiki.hypr.land/Configuring/Basics/Workspace-Rules/
+
+-- Example window rules that are useful
+
+local suppressMaximizeRule = hl.window_rule({
+    -- Ignore maximize requests from all apps. You'll probably like this.
+    name  = "suppress-maximize-events",
+    match = { class = ".*" },
+
+    suppress_event = "maximize",
+})
+-- suppressMaximizeRule:set_enabled(false)
+
+hl.window_rule({
+    -- Fix some dragging issues with XWayland
+    name  = "fix-xwayland-drags",
+    match = {
+        class      = "^$",
+        title      = "^$",
+        xwayland   = true,
+        float      = true,
+        fullscreen = false,
+        pin        = false,
+    },
+
+    no_focus = true,
+})
+
+-- Layer rules also return a handle.
+-- local overlayLayerRule = hl.layer_rule({
+--     name  = "no-anim-overlay",
+--     match = { namespace = "^my-overlay$" },
+--     no_anim = true,
+-- })
+-- overlayLayerRule:set_enabled(false)
+
+-- Hyprland-run windowrule
+hl.window_rule({
+    name  = "move-hyprland-run",
+    match = { class = "hyprland-run" },
+
+    move  = "20 monitor_h-120",
+    float = true,
+})
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+now below is a command:
+{
+echo "### reddragon"; cat ~/.local/bin/watch-reddragon.sh
+echo "### songdetail"; cat ~/.config/hypr/Scripts/songdetail.sh
+echo "### hyprshade"; command -v hyprshade
+echo "### hyprctl"; hyprctl --help | head -60; hyprctl status
+echo "### refs"
+grep -rIn -E "hyprctl|hypr/(themes|keybindings|windowrules|userprefs|monitors|animations|hyprland)|hyprland\.conf" \
+  ~/.config/waybar ~/.config/wlogout ~/.config/rofi ~/.config/dunst ~/.config/swappy ~/.config/kitty ~/.config/hyde/hyde.conf 2>/dev/null
+} > /tmp/hypr-info2.txt
+
+and below is the output of this command:
+
+### reddragon
+#!/bin/bash
+
+while true; do
+    if [ -e /dev/input/by-id/usb-Evision_RGB_Keyboard-event-kbd ]; then
+        pgrep -f "reddragon_conf.kbd" >/dev/null || \
+            kmonad ~/.config/kmonad/reddragon_conf.kbd &
+    fi
+
+    sleep 2
+done
+### songdetail
+#!/bin/bash
+
+# song_info=$(playerctl metadata --format '{{title}}      {{artist}}')
+#
+# echo "$song_info" 
+
+# Check if media is playing
+status=$(playerctl status 2>/dev/null)
+
+if [ "$status" == "Playing" ] || [ "$status" == "Paused" ]; then
+    # If media is playing or paused, get song info
+    song_info=$(playerctl metadata --format '{{title}}      {{artist}}')
+
+    # Extract title and artist
+    title=$(echo "$song_info" | awk -F '      ' '{print $1}')
+    artist=$(echo "$song_info" | awk -F '      ' '{print $2}')
+
+    # Truncate title to 10 characters and add ellipses if necessary
+    truncated_title=$(echo "$title" | awk '{print (length > 30) ? substr($0, 1, 30) "..." : $0}')
+
+    echo -e "$truncated_title       $artist"
+else
+    # If no media is playing
+    echo "    No media. Boring."
+fi
+### hyprshade
+### hyprctl
+usage: hyprctl [flags] <command> [args...|--help]
+
+commands:
+    activewindow        → Gets the active window name and its properties
+    activeworkspace     → Gets the active workspace and its properties
+    animations          → Gets the current config'd info about animations
+                          and beziers
+    binds               → Lists all registered binds
+    clients             → Lists all windows with their properties
+    configerrors        → Lists all current config parsing errors
+    cursorpos           → Gets the current cursor position in global layout
+                          coordinates
+    decorations <window_regex> → Lists all decorations and their info
+    devices             → Lists all connected keyboards and mice
+    dismissnotify [amount] → Dismisses all or up to AMOUNT notifications
+    dispatch <dispatcher> [args] → Issue a dispatch to call a keybind
+                          dispatcher with arguments
+    eval <code>         → Issue a Lua string to execute
+    getoption <option>  → Gets the config option status (values)
+    globalshortcuts     → Lists all global shortcuts
+    hyprpaper ...       → Issue a hyprpaper request
+    hyprsunset ...      → Issue a hyprsunset request
+    instances           → Lists all running instances of Hyprland with
+                          their info
+    keyword <name> <value> → Issue a keyword to call a config keyword
+                          dynamically
+    kill                → Issue a kill to get into a kill mode, where you can
+                          kill an app by clicking on it. You can exit it
+                          with ESCAPE
+    layers              → Lists all the surface layers
+    layouts             → Lists all layouts available (including plugin'd ones)
+    monitors            → Lists active outputs with their properties,
+                          'monitors all' lists active and inactive outputs
+    notify ...          → Sends a notification using the built-in Hyprland
+                          notification system
+    output ...          → Allows you to add and remove fake outputs to your
+                          preferred backend
+    plugin ...          → Issue a plugin request
+    reload [config-only] → Issue a reload to force reload the config. Pass
+                          'config-only' to disable monitor reload
+    repl [code]         → Enter interactive Lua REPL mode (^D to exit)
+                          or issue a Lua string and print the result
+    rollinglog          → Prints tail of the log. Also supports -f/--follow
+                          option
+    setcursor <theme> <size> → Sets the cursor theme and reloads the cursor
+                          manager
+    seterror <color> <message...> → Sets the hyprctl error string. Color has
+                          the same format as in colors in config. Will reset
+                          when Hyprland's config is reloaded
+    setprop ...         → Sets a window property
+    getprop ...         → Gets a window property
+    splash              → Get the current splash
+    status              → Get internal status information
+    switchxkblayout ... → Sets the xkb layout index for a keyboard
+    systeminfo          → Get system info
+    version             → Prints the hyprland version, meaning flags, commit
+                          and branch of build.
+    workspacerules      → Lists all workspace rules
+    workspaces          → Lists all workspaces with their properties
+
+
+configProvider: hyprlang
+backend: drm
+
+### refs
+/home/pulkit/.config/waybar/modules/updates.jsonc:6:        "on-click": "hyprctl dispatch exec 'systemupdate.sh up'",
+/home/pulkit/.config/waybar/modules/workspaces.jsonc:8:        "on-scroll-up": "hyprctl dispatch workspace -1",
+/home/pulkit/.config/waybar/modules/workspaces.jsonc:9:        "on-scroll-down": "hyprctl dispatch workspace +1",
+/home/pulkit/.config/waybar/config.jsonc:157:        "on-click": "hyprctl dispatch exec 'systemupdate.sh up'",
+/home/pulkit/.config/wlogout/layout_1:10:    "action" : "hyprctl dispatch exit 0",
+/home/pulkit/.config/wlogout/layout_2:10:    "action" : "hyprctl dispatch exit 0",
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+❯ cd .config/hyde
+❯ lt
+ .
+├── 󱁻 hyde.conf
+├──  themes
+│   ├──  'Catppuccin Latte'
+│   ├──  'Catppuccin Mocha'
+│   │   ├──  hypr.theme
+│   │   ├──  kitty.theme
+│   │   ├──  kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Catppuccin Mocha/wallpapers'/boat_abondoned.jpg
+│   │   ├──  wallpapers
+│   │   │   ├──  '1 rain_world.png'
+│   │   │   ├──  '2 rain_world.png'
+│   │   │   ├──  '3 rain_world.png'
+│   │   │   ├──  aesthetic_deer.png
+│   │   │   ├──  apex_octane.jpg
+│   │   │   ├──  black_hole_by_kurzgesagt.png
+│   │   │   ├──  boat_abondoned.jpg
+│   │   │   ├──  cat_leaves.png
+│   │   │   ├──  escape_velocity.jpg
+│   │   │   ├──  evening_sky.png
+│   │   │   ├──  firewatch.jpg
+│   │   │   ├──  forest_dark_winter.jpg
+│   │   │   ├──  hanged_man_tree.jpg
+│   │   │   ├──  rebellious_tower.png
+│   │   │   └──  switch_swirl.jpg
+│   │   └──  waybar.theme
+│   ├──  'Decay Green'
+│   │   ├──  hypr.theme
+│   │   ├──  kitty.theme
+│   │   ├──  kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Decay Green/wallpapers'/solaroid.jpg
+│   │   ├──  wallpapers
+│   │   │   ├──  arcade_decay_red.png
+│   │   │   ├──  aurora_borealis.png
+│   │   │   ├──  blue_swirl.png
+│   │   │   ├──  moments_before_desk.png
+│   │   │   ├──  night_city.png
+│   │   │   ├──  relaxed_mario.png
+│   │   │   └──  solaroid.jpg
+│   │   └──  waybar.theme
+│   ├──  'Edge Runner'
+│   │   ├──  hypr.theme
+│   │   ├──  kitty.theme
+│   │   ├──  kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Edge Runner/wallpapers'/lucy_rebecca.jpg
+│   │   ├──  wallpapers
+│   │   │   ├──  cyberpunk_dave.png
+│   │   │   ├──  david.jpg
+│   │   │   ├──  lucy_1.jpg
+│   │   │   ├──  lucy_2.png
+│   │   │   └──  lucy_rebecca.jpg
+│   │   └──  waybar.theme
+│   ├──  'Frosted Glass'
+│   │   ├──  hypr.theme
+│   │   ├──  kitty.theme
+│   │   ├──  kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Frosted Glass/wallpapers'/lake_mountain.jpg
+│   │   ├──  wallpapers
+│   │   │   ├──  blue_desert.png
+│   │   │   ├──  cloudy_crescent.png
+│   │   │   ├──  cloudy_mountain.png
+│   │   │   ├──  lake_mountain.jpg
+│   │   │   ├──  min_forest.jpg
+│   │   │   └──  teal_mountain.png
+│   │   └──  waybar.theme
+│   ├──  'Graphite Mono'
+│   ├──  'Gray Biker'
+│   │   ├──  backup-kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  hypr.theme
+│   │   ├── 󱁻 kitty.conf
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Gray Biker/wallpapers'/seven.jpg
+│   │   ├──  wallpapers
+│   │   │   ├──  eight.jpg
+│   │   │   ├──  eleven.jpg
+│   │   │   ├──  five.jpg
+│   │   │   ├──  four.jpg
+│   │   │   ├──  nine.jpg
+│   │   │   ├──  one.jpg
+│   │   │   ├──  seven.jpg
+│   │   │   ├──  six.jpg
+│   │   │   ├──  ten.jpg
+│   │   │   ├──  three.jpg
+│   │   │   └──  two.jpg
+│   │   └──  waybar.theme
+│   ├──  'Gruvbox Retro'
+│   ├──  'Material Sakura'
+│   │   ├──  hypr.theme
+│   │   ├──  kitty.theme
+│   │   ├──  kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Material Sakura/wallpapers'/material_pastel_8.jpg
+│   │   ├──  wallpapers
+│   │   │   ├──  material_pastel_1.jpg
+│   │   │   ├──  material_pastel_2.jpg
+│   │   │   ├──  material_pastel_3.jpg
+│   │   │   ├──  material_pastel_4.jpg
+│   │   │   ├──  material_pastel_5.jpg
+│   │   │   ├──  material_pastel_6.jpg
+│   │   │   ├──  material_pastel_7.jpg
+│   │   │   └──  material_pastel_8.jpg
+│   │   └──  waybar.theme
+│   ├──  'Nordic Blue'
+│   │   ├──  hypr.theme
+│   │   ├──  kitty.theme
+│   │   ├──  kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Nordic Blue/wallpapers'/wild.png
+│   │   ├──  wallpapers
+│   │   │   ├──  forest.jpg
+│   │   │   ├──  mountains.jpg
+│   │   │   ├──  Nordic-Heroin.png
+│   │   │   ├──  range.png
+│   │   │   ├──  sunset.jpg
+│   │   │   ├──  underwater.png
+│   │   │   └──  wild.png
+│   │   └──  waybar.theme
+│   ├──  'Rosé Pine'
+│   ├──  'Rule One'
+│   │   ├──  hypr-theme.back
+│   │   ├──  hypr.theme
+│   │   ├── 󱁻 kitty.conf
+│   │   ├──  kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Rule One/wallpapers'/solaroid.jpg
+│   │   ├──  wallpapers
+│   │   │   ├──  cat.png
+│   │   │   ├──  chaand.png
+│   │   │   ├──  consumerism.jpg.xmp
+│   │   │   ├──  cyber_asian_girl.png
+│   │   │   ├──  cyber_asian_girl.png.xmp
+│   │   │   ├──  fight_hub.jpg.xmp
+│   │   │   ├──  finalizer.png
+│   │   │   ├──  finalizer.png.xmp
+│   │   │   ├──  fuck_the_nerves.png
+│   │   │   ├──  get_on_my_level.jpg
+│   │   │   ├──  get_on_my_level.jpg.xmp
+│   │   │   ├──  gnu_bull_man.jpg
+│   │   │   ├──  gnu_bull_man.jpg.xmp
+│   │   │   ├──  gruvbox_woman.png
+│   │   │   ├──  gruvbox_woman.png.xmp
+│   │   │   ├──  gunsnroses.png
+│   │   │   ├──  ice_ghost.png
+│   │   │   ├──  light_yagami.jpg.xmp
+│   │   │   ├──  lone_sailor.jpg
+│   │   │   ├──  lone_sailor.jpg.xmp
+│   │   │   ├──  mountain_set.jpg
+│   │   │   ├──  mountain_set.jpg.xmp
+│   │   │   ├──  plane.png
+│   │   │   ├──  point_at_pointer.jpg
+│   │   │   ├──  point_at_pointer.jpg.xmp
+│   │   │   ├──  purpleSkull.png
+│   │   │   ├──  purpleSkull.png.xmp
+│   │   │   ├──  rick_and_morty.jpg
+│   │   │   ├──  rick_and_morty.jpg.xmp
+│   │   │   ├──  shatter_villain.png
+│   │   │   ├──  shrug_it_off.png
+│   │   │   ├──  solaroid-2.jpg
+│   │   │   ├──  solaroid.jpg
+│   │   │   ├──  sunfucked.png
+│   │   │   ├──  terrain.png
+│   │   │   ├──  tokyo_drift.png
+│   │   │   ├──  venom.jpg
+│   │   │   ├──  venom.jpg.xmp
+│   │   │   ├──  yinAndYang.png
+│   │   │   └──  yinAndYang.png.xmp
+│   │   └──  waybar.theme
+│   ├──  'Synth Wave'
+│   │   ├──  hypr.theme
+│   │   ├──  kitty.theme
+│   │   ├──  kvantum
+│   │   │   ├──  kvantum.theme
+│   │   │   └──  kvconfig.theme
+│   │   ├──  rofi.theme
+│   │   ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Synth Wave/wallpapers'/'glitch fox.png'
+│   │   ├──  wallpapers
+│   │   │   ├──  beach.jpg
+│   │   │   ├──  'glitch fox.png'
+│   │   │   ├──  'palm trees.jpg'
+│   │   │   └──  waves.jpg
+│   │   └──  waybar.theme
+│   └──  'Tokyo Night'
+│       ├──  hypr.theme
+│       ├──  kitty.theme
+│       ├──  kvantum
+│       │   ├──  kvantum.theme
+│       │   └──  kvconfig.theme
+│       ├──  rofi.theme
+│       ├──  wall.set -> '/home/pulkit/.config/hyde/themes/Tokyo Night/wallpapers'/cat_lofi_cafe.jpg
+│       ├──  wallpapers
+│       │   ├──  cat_lofi_cafe.jpg
+│       │   ├──  edger_lucy_neon.jpg
+│       │   ├──  gas_station.gif
+│       │   ├──  lowpoly_street.png
+│       │   ├──  solaroid.jpg
+│       │   ├──  street.gif
+│       │   └──  tokyo_pink.png
+│       └──  waybar.theme
+└──  wallbash
+    ├──  Wall-Dcol
+    │   ├──  gtk
+    │   │   ├──  gtk3.dcol
+    │   │   └──  gtk4.dcol
+    │   ├──  hypr.dcol
+    │   ├──  kitty.dcol
+    │   ├──  kvantum
+    │   │   ├──  kvantum.dcol
+    │   │   └──  kvconfig.dcol
+    │   ├──  rofi.dcol
+    │   └──  waybar.dcol
+    └──  Wall-Ways
+        ├──  cava.dcol
+        ├──  code.dcol
+        ├──  discord.dcol
+        ├──  notification
+        │   ├──  dunst.dcol
+        │   ├──  hyprdots.dcol
+        │   ├──  muted-mic.dcol
+        │   ├──  muted-speaker.dcol
+        │   ├──  unmuted-mic.dcol
+        │   ├──  unmuted-speaker.dcol
+        │   ├──  vol-0.dcol
+        │   ├──  vol-5.dcol
+        │   ├──  vol-10.dcol
+        │   ├──  vol-15.dcol
+        │   ├──  vol-20.dcol
+        │   ├──  vol-25.dcol
+        │   ├──  vol-30.dcol
+        │   ├──  vol-35.dcol
+        │   ├──  vol-40.dcol
+        │   ├──  vol-45.dcol
+        │   ├──  vol-50.dcol
+        │   ├──  vol-55.dcol
+        │   ├──  vol-60.dcol
+        │   ├──  vol-65.dcol
+        │   ├──  vol-70.dcol
+        │   ├──  vol-75.dcol
+        │   ├──  vol-80.dcol
+        │   ├──  vol-85.dcol
+        │   ├──  vol-90.dcol
+        │   ├──  vol-95.dcol
+        │   └──  vol-100.dcol
+        ├──  palette
+        │   ├──  palette_v2.t2
+        │   └──  palette_v3.t2
+        ├──  qtct.dcol
+        └──  spotify.dcol
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+> cd .local/share
+> lt 4
+ .
+├──  applications
+│   ├──  discord-1176718791388975124.desktop
+│   ├──  mimeapps.list
+│   ├──  mimeinfo.cache
+│   ├──  userapp-Firefox-FBTR42.desktop
+│   ├──  wine-extension-chm.desktop
+│   ├──  wine-extension-hlp.desktop
+│   ├──  wine-extension-msp.desktop
+│   └──  wine-extension-vbs.desktop
+├──  ark
+│   └── 󰡯 ark_recentfiles
+├──  baloo
+│   ├── 󰡯 index
+│   └── 󰡯 index-lock
+├──  barrier
+│   └──  SSL
+├──  bin
+│   ├──  amdgpu.py
+│   ├──  batterynotify.sh
+│   ├──  brightnesscontrol.sh
+│   ├──  cliphist.sh
+│   ├──  cpuinfo.sh
+│   ├──  dontkillsteam.sh
+│   ├──  gamelauncher.sh
+│   ├──  gamemode.sh
+│   ├──  globalcontrol.sh
+│   ├──  gpuinfo.sh
+│   ├──  keybinds_hint.sh
+│   ├──  keyboardswitch.sh
+│   ├──  logoutlaunch.sh
+│   ├──  mediaplayer.py
+│   ├──  notifications.py
+│   ├──  polkitkdeauth.sh
+│   ├──  quickapps.sh
+│   ├──  resetxdgportal.sh
+│   ├──  rofilaunch.sh
+│   ├──  rofiselect.sh
+│   ├──  screenshot.sh
+│   ├──  swwwallbash.sh
+│   ├──  swwwallcache.sh
+│   ├──  swwwallkon.sh
+│   ├──  swwwallpaper.sh
+│   ├──  swwwallselect.sh
+│   ├──  sysmonlaunch.sh
+│   ├──  systemupdate.sh
+│   ├──  testrunner.sh
+│   ├──  themeselect.sh
+│   ├──  themeswitch.sh
+│   ├──  touchpadtoggle.sh
+│   ├──  volumecontrol.sh
+│   ├──  wallbash.sh
+│   ├──  wallbashcava.sh
+│   ├──  wallbashcode.sh
+│   ├──  wallbashdiscord.sh
+│   ├──  wallbashdunst.sh
+│   ├──  wallbashqt.sh
+│   ├──  wallbashspotify.sh
+│   ├──  wallbashtoggle.sh
+│   ├──  waybar_cava.sh
+│   ├──  wbarconfgen.sh
+│   ├──  wbarstylegen.sh
+│   └──  windowpin.sh
+├──  calibre-ebook.com
+│   └──  calibre
+│       └──  QtWebEngine
+│           └──  viewer-lookup
+├──  CMakeTools
+│   ├──  cmake-tools-kits.json
+│   └──  log.txt
+├──  desktop-directories
+├──  dolphin
+│   ├── 󰡯 dolphinstaterc
+│   └──  view_properties
+│       ├──  global
+│       ├──  search
+│       │   ├──  -nxPivEiCua7XTLOmQLoci9pEkI=
+│       │   ├──  5lAjazxmBCTiVVuq7lupQHJdwVQ=
+│       │   ├──  nmGZGhZo58vl0I5zdzfRhJrg-n4=
+│       │   ├──  RVF8wBoBJX67fDxNehrqGUmTZUU=
+│       │   ├──  uIeNlZ7Z6rwKkv6+cKZbniiDjqk=
+│       │   └──  v+EMOPnqtosvhVJ0B8r1Ie7KeuU=
+│       └──  timeline
+├──  dooit
+│   ├──  dooit.db
+│   └──  todo.bak
+├──  flatpak
+│   └──  db
+├──  fonts
+│   ├──  CascadiaCove
+│   │   ├──  'Caskaydia Cove Nerd Font Complete Mono Regular.otf'
+│   │   └──  'Caskaydia Cove Nerd Font Complete Regular.otf'
+│   ├──  JetBrains
+│   │   └──  JetBrains-Mono-Nerd-Font-Complete.ttf
+│   ├──  MapleMono
+│   │   ├──  MapleMono-Bold.ttf
+│   │   ├──  MapleMono-BoldItalic.ttf
+│   │   ├──  MapleMono-Italic.ttf
+│   │   ├──  MapleMono-Light.ttf
+│   │   ├──  MapleMono-LightItalic.ttf
+│   │   └──  MapleMono-Regular.ttf
+│   ├──  MaterialDesign
+│   │   └──  MaterialDesignIcons.ttf
+│   └──  Mononoki
+│       ├──  'mononoki-Regular Nerd Font Complete.ttf'
+│       └──  'mononoki-Regular Nerd Font Complete Mono.ttf'
+├──  Google
+│   └──  consentOptions
+│       └── 󰡯 accepted
+├──  hawkthorne
+│   ├──  controls-1.json
+│   ├──  gamesaves-alpha-1.json
+│   ├──  gamesaves-beta-1.json
+│   ├──  gamesaves-gamma-1.json
+│   └──  options-2.json
+├──  hyprland
+│   ├── 󰡯 lastNag
+│   └── 󰡯 lastVersion
+├──  hyprpm
+│   ├──  headersRoot
+│   │   ├──  include
+│   │   │   └──  hyprland
+│   │   └──  share
+│   │       └──  pkgconfig
+│   ├──  hyprland-plugins
+│   │   ├──  borders-plus-plus.so
+│   │   ├──  csgo-vulkan-fix.so
+│   │   ├──  hyprbars.so
+│   │   ├──  hyprexpo.so
+│   │   ├──  hyprtrails.so
+│   │   ├──  hyprwinwrap.so
+│   │   ├──  state.toml
+│   │   └──  xtra-dispatchers.so
+│   ├──  Hyprspace
+│   │   ├──  Hyprspace.so
+│   │   └──  state.toml
+│   └──  state.toml
+├──  icons
+│   └──  hicolor
+│       ├──  16x16
+│       │   └──  apps
+│       ├──  32x32
+│       │   └──  apps
+│       ├──  48x48
+│       │   └──  apps
+│       └──  256x256
+│           └──  apps
+├──  jupyter
+│   └──  runtime
+├──  kio
+│   └──  servicemenus
+│       └──  hydewallpaper.desktop
+├──  kotlin
+│   └──  daemon
+│       └──  kotlin-daemon.2025-11-20T18-43-05.025Z.06673718b529b444c0c982fd313d24b4.17508.run
+├──  kxmlgui5
+│   └──  dolphin
+│       └──  dolphinui.rc
+├──  man
+├──  meld
+├──  mime
+│   ├── 󰡯 aliases
+│   ├──  application
+│   │   ├── 󰗀 x-extension-htm.xml
+│   │   ├── 󰗀 x-extension-html.xml
+│   │   ├── 󰗀 x-extension-shtml.xml
+│   │   ├── 󰗀 x-extension-xht.xml
+│   │   ├── 󰗀 x-extension-xhtml.xml
+│   │   └── 󰗀 x-wine-extension-msp.xml
+│   ├── 󰡯 generic-icons
+│   ├── 󰡯 globs
+│   ├── 󰡯 globs2
+│   ├── 󰡯 icons
+│   ├── 󰡯 magic
+│   ├──  mime.cache
+│   ├──  packages
+│   │   ├── 󰗀 user-extension-htm.xml
+│   │   ├── 󰗀 user-extension-html.xml
+│   │   ├── 󰗀 user-extension-shtml.xml
+│   │   ├── 󰗀 user-extension-xht.xml
+│   │   ├── 󰗀 user-extension-xhtml.xml
+│   │   └── 󰗀 x-wine-extension-msp.xml
+│   ├── 󰡯 subclasses
+│   ├── 󰡯 treemagic
+│   ├── 󰡯 types
+│   ├── 󰡯 version
+│   └── 󰡯 XMLnamespaces
+├──  nvim
+│   ├──  base46
+│   │   ├── 󰡯 blankline
+│   │   ├── 󰡯 cmp
+│   │   ├── 󰡯 colors
+│   │   ├── 󰡯 defaults
+│   │   ├── 󰡯 devicons
+│   │   ├── 󰡯 git
+│   │   ├── 󰡯 lsp
+│   │   ├── 󰡯 mason
+│   │   ├── 󰡯 nvcheatsheet
+│   │   ├── 󰡯 nvimtree
+│   │   ├── 󰡯 statusline
+│   │   ├── 󰡯 syntax
+│   │   ├── 󰡯 tbline
+│   │   ├── 󰡯 telescope
+│   │   ├── 󰡯 term
+│   │   ├── 󰡯 treesitter
+│   │   └── 󰡯 whichkey
+│   ├──  harpoon.json
+│   ├──  lazy
+│   │   ├──  blink.cmp
+│   │   │   ├──  _typos.toml
+│   │   │   ├──  build.rs
+│   │   │   ├──  Cargo.lock
+│   │   │   ├──  Cargo.toml
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  Cross.toml
+│   │   │   ├──  doc
+│   │   │   ├──  flake.lock
+│   │   │   ├──  flake.nix
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  repro.lua
+│   │   ├──  conform.nvim
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  run_tests.sh
+│   │   │   ├──  scripts
+│   │   │   └──  tests
+│   │   ├──  fidget.nvim
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   ├──  stylua.toml
+│   │   │   └──  tests
+│   │   ├──  friendly-snippets
+│   │   │   ├──  debug
+│   │   │   ├──  LICENSE
+│   │   │   ├──  package.json
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  snippets
+│   │   ├──  gitsigns.nvim
+│   │   │   ├──  AGENTS.md
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  doc
+│   │   │   ├──  etc
+│   │   │   ├──  gitsigns.nvim-scm-2.rockspec
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  release-please-config.json
+│   │   │   ├──  scripts
+│   │   │   └──  test
+│   │   ├──  guess-indent.nvim
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  tests
+│   │   ├──  harpoon
+│   │   │   ├──  harpoon.png
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   └──  TODO.md
+│   │   ├──  indent-blankline.nvim
+│   │   │   ├──  after
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE.md
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  specs
+│   │   │   └──  stylua.toml
+│   │   ├──  kanagawa.nvim
+│   │   │   ├──  assets
+│   │   │   ├──  colors
+│   │   │   ├──  extras
+│   │   │   ├──  kanagawa@2x.png
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  palette.py
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  screenshot.png
+│   │   ├──  lazy.nvim
+│   │   │   ├──  bootstrap.lua
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├── 󰡯 manifest
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   ├──  selene.toml
+│   │   │   ├──  stylua.toml
+│   │   │   ├──  tests
+│   │   │   ├──  TODO.md
+│   │   │   └──  vim.yml
+│   │   ├──  lazydev.nvim
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  selene.toml
+│   │   │   ├──  stylua.toml
+│   │   │   └──  vim.yml
+│   │   ├──  LuaSnip
+│   │   │   ├──  data
+│   │   │   ├──  deps
+│   │   │   ├──  doc
+│   │   │   ├──  DOC.md
+│   │   │   ├──  Examples
+│   │   │   ├──  flake.lock
+│   │   │   ├──  flake.nix
+│   │   │   ├──  ftplugin
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  syntax
+│   │   │   └──  tests
+│   │   ├──  mason-lspconfig.nvim
+│   │   │   ├──  after
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   ├──  selene.toml
+│   │   │   ├──  stylua.toml
+│   │   │   ├──  tests
+│   │   │   └──  vim.yml
+│   │   ├──  mason-nvim-dap.nvim
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  stylua.toml
+│   │   ├──  mason-tool-installer.nvim
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  neovim.yml
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  selene.toml
+│   │   ├──  mason.nvim
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  PACKAGES.md
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├── 󰒃 SECURITY.md
+│   │   │   ├──  selene.toml
+│   │   │   ├──  stylua.toml
+│   │   │   ├──  tests
+│   │   │   └──  vim.yml
+│   │   ├──  mini.nvim
+│   │   │   ├──  benchmarks
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  CODE_OF_CONDUCT.md
+│   │   │   ├──  colors
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  logo.png
+│   │   │   ├──  lua
+│   │   │   ├──  MAINTAINING.md
+│   │   │   ├──  Makefile
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  readmes
+│   │   │   ├──  scripts
+│   │   │   ├──  TESTING.md
+│   │   │   └──  tests
+│   │   ├──  nvim-autopairs
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  tests
+│   │   ├──  nvim-cmp
+│   │   │   ├──  autoload
+│   │   │   ├──  doc
+│   │   │   ├──  init.sh
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  nvim-cmp-scm-1.rockspec
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  stylua.toml
+│   │   │   └──  utils
+│   │   ├──  nvim-dap
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE.txt
+│   │   │   ├──  lua
+│   │   │   ├──  nvim-dap-scm-1.rockspec
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  spec
+│   │   ├──  nvim-dap-go
+│   │   │   ├──  doc
+│   │   │   ├──  images
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  tests
+│   │   ├──  nvim-dap-ui
+│   │   │   ├──  doc
+│   │   │   ├──  Dockerfile
+│   │   │   ├──  LICENCE.md
+│   │   │   ├──  lua
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   ├──  stylua.toml
+│   │   │   └──  tests
+│   │   ├──  nvim-dap-virtual-text
+│   │   │   ├──  LICENSE.txt
+│   │   │   ├──  lua
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   └──  test_cases
+│   │   ├──  nvim-lint
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE.txt
+│   │   │   ├──  lua
+│   │   │   ├──  nvim-lint-scm-1.rockspec
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  spec
+│   │   ├──  nvim-lspconfig
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  doc
+│   │   │   ├──  flake.lock
+│   │   │   ├──  flake.nix
+│   │   │   ├──  LICENSE.md
+│   │   │   ├──  lsp
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  neovim.yml
+│   │   │   ├──  nvim-lspconfig-scm-1.rockspec
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   └──  test
+│   │   ├──  nvim-nio
+│   │   │   ├──  doc
+│   │   │   ├──  LICENCE.md
+│   │   │   ├──  lua
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   ├──  stylua.toml
+│   │   │   └──  tests
+│   │   ├──  nvim-treesitter
+│   │   │   ├──  assets
+│   │   │   ├──  autoload
+│   │   │   ├──  contrib
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lockfile.json
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  parser
+│   │   │   ├──  parser-info
+│   │   │   ├──  plugin
+│   │   │   ├──  queries
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   └──  tests
+│   │   ├──  nvim-ufo
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  coc-extension
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  package.json
+│   │   │   └── 󰂺 README.md
+│   │   ├──  nvim-web-devicons
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  scripts
+│   │   ├──  playground
+│   │   │   ├──  after
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  plugin
+│   │   │   ├──  queries
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  syntax
+│   │   ├──  plenary.nvim
+│   │   │   ├──  data
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  plenary.nvim-scm-1.rockspec
+│   │   │   ├──  plugin
+│   │   │   ├──  POPUP.md
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  rockspec.template
+│   │   │   ├──  scripts
+│   │   │   ├──  tests
+│   │   │   └──  TESTS_README.md
+│   │   ├──  promise-async
+│   │   │   ├──  examples
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  rockspec
+│   │   │   ├──  spec
+│   │   │   └──  typings
+│   │   ├──  tabout.nvim
+│   │   │   ├──  assets
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  plugin
+│   │   │   └── 󰂺 README.md
+│   │   ├──  telescope-fzf-native.nvim
+│   │   │   ├── 󱧼 build
+│   │   │   ├──  CMakeLists.txt
+│   │   │   ├──  CMakePresets.json
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├── 󰣞 src
+│   │   │   └──  test
+│   │   ├──  telescope-ui-select.nvim
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   └── 󰂺 README.md
+│   │   ├──  telescope.nvim
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  data
+│   │   │   ├──  developers.md
+│   │   │   ├──  doc
+│   │   │   ├──  ftplugin
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   └──  telescope.nvim-scm-1.rockspec
+│   │   ├──  todo-comments.nvim
+│   │   │   ├──  boo.toml
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  selene.toml
+│   │   │   ├──  stylua.toml
+│   │   │   └──  vim.yml
+│   │   ├──  undotree
+│   │   │   ├──  autoload
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  syntax
+│   │   ├──  vim-fugitive
+│   │   │   ├──  autoload
+│   │   │   ├──  CONTRIBUTING.markdown
+│   │   │   ├──  doc
+│   │   │   ├──  ftdetect
+│   │   │   ├──  ftplugin
+│   │   │   ├──  plugin
+│   │   │   ├──  README.markdown
+│   │   │   └──  syntax
+│   │   └──  which-key.nvim
+│   │       ├──  CHANGELOG.md
+│   │       ├──  doc
+│   │       ├──  LICENSE
+│   │       ├──  lua
+│   │       ├──  NEWS.md
+│   │       ├──  plugin
+│   │       ├── 󰂺 README.md
+│   │       ├──  scripts
+│   │       ├──  selene.toml
+│   │       ├──  stylua.toml
+│   │       ├──  tests
+│   │       ├──  TODO.md
+│   │       └──  vim.yml
+│   ├──  mason
+│   │   ├──  bin
+│   │   │   ├── 󰡯 clangd -> ../packages/clangd/clangd_22.1.0/bin/clangd
+│   │   │   ├── 󰡯 debugpy -> ../packages/debugpy/debugpy
+│   │   │   ├── 󰡯 debugpy-adapter -> ../packages/debugpy/debugpy-adapter
+│   │   │   ├── 󰡯 dlv -> ../packages/delve/dlv
+│   │   │   ├── 󰡯 jdtls -> ../packages/jdtls/jdtls
+│   │   │   ├── 󰡯 lemminx -> ../packages/lemminx/lemminx-linux
+│   │   │   ├── 󰡯 lua-language-server -> ../packages/lua-language-server/lua-language-server
+│   │   │   ├── 󰡯 prettier -> ../packages/prettier/node_modules/.bin/prettier
+│   │   │   ├── 󰡯 prettierd -> ../packages/prettierd/node_modules/.bin/prettierd
+│   │   │   ├── 󰡯 pyright -> ../packages/pyright/node_modules/.bin/pyright
+│   │   │   ├── 󰡯 pyright-langserver -> ../packages/pyright/node_modules/.bin/pyright-langserver
+│   │   │   ├── 󰡯 ruff -> ../packages/ruff/venv/bin/ruff
+│   │   │   ├── 󰡯 stylua -> ../packages/stylua/stylua
+│   │   │   ├── 󰡯 tailwindcss-language-server -> ../packages/tailwindcss-language-server/node_modules/.bin/tailwindcss-language-server
+│   │   │   ├── 󰡯 typescript-language-server -> ../packages/typescript-language-server/node_modules/.bin/typescript-language-server
+│   │   │   ├── 󰡯 vls -> /home/pulkit/.local/share/nvim/mason/packages/vetur-vls/node_modules/.bin/vls
+│   │   │   ├── 󰡯 vscode-css-language-server -> /home/pulkit/.local/share/nvim/mason/packages/css-lsp/node_modules/.bin/vscode-css-language-server
+│   │   │   ├── 󰡯 vscode-eslint-language-server -> /home/pulkit/.local/share/nvim/mason/packages/eslint-lsp/node_modules/.bin/vscode-eslint-language-server
+│   │   │   ├── 󰡯 vscode-html-language-server -> /home/pulkit/.local/share/nvim/mason/packages/html-lsp/node_modules/.bin/vscode-html-language-server
+│   │   │   └── 󰡯 vue-language-server -> ../packages/vue-language-server/node_modules/.bin/vue-language-server
+│   │   ├──  packages
+│   │   │   ├──  clangd
+│   │   │   ├──  css-lsp
+│   │   │   ├──  debugpy
+│   │   │   ├──  delve
+│   │   │   ├──  eslint-lsp
+│   │   │   ├──  html-lsp
+│   │   │   ├──  jdtls
+│   │   │   ├──  lemminx
+│   │   │   ├──  lua-language-server
+│   │   │   ├──  prettier
+│   │   │   ├──  prettierd
+│   │   │   ├──  pyright
+│   │   │   ├──  ruff
+│   │   │   ├──  stylua
+│   │   │   ├──  tailwindcss-language-server
+│   │   │   ├──  typescript-language-server
+│   │   │   ├──  vetur-vls
+│   │   │   └──  vue-language-server
+│   │   ├──  registries
+│   │   │   └──  github
+│   │   ├──  share
+│   │   │   ├──  jdtls
+│   │   │   └──  mason-schemas
+│   │   └──  staging
+│   ├──  neo-tree.nvim.log
+│   ├──  nvnotify
+│   ├──  rplugin.vim
+│   ├──  site
+│   │   └──  pack
+│   │       └──  packer
+│   └── 󰡯 telescope_history
+├──  nvim-nvchad
+├──  nvim-personal
+│   ├──  lazy
+│   │   ├──  cmp-nvim-lsp
+│   │   │   ├──  after
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   └── 󰂺 README.md
+│   │   ├──  cmp-path
+│   │   │   ├──  after
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   └── 󰂺 README.md
+│   │   ├──  cmp_luasnip
+│   │   │   ├──  after
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  stylua.toml
+│   │   ├──  conform.nvim
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  run_tests.sh
+│   │   │   ├──  scripts
+│   │   │   └──  tests
+│   │   ├──  fidget.nvim
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   ├──  stylua.toml
+│   │   │   └──  tests
+│   │   ├──  gitsigns.nvim
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  doc
+│   │   │   ├──  etc
+│   │   │   ├──  gen_help.lua
+│   │   │   ├──  gitsigns.nvim-scm-1.rockspec
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  release-please-config.json
+│   │   │   └──  test
+│   │   ├──  lazy.nvim
+│   │   │   ├──  bootstrap.lua
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├── 󰡯 manifest
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   ├──  selene.toml
+│   │   │   ├──  stylua.toml
+│   │   │   ├──  tests
+│   │   │   ├──  TODO.md
+│   │   │   └──  vim.toml
+│   │   ├──  lazydev.nvim
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  selene.toml
+│   │   │   ├──  stylua.toml
+│   │   │   └──  vim.toml
+│   │   ├──  LuaSnip
+│   │   │   ├──  deps
+│   │   │   ├──  doc
+│   │   │   ├──  DOC.md
+│   │   │   ├──  Examples
+│   │   │   ├──  ftplugin
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  syntax
+│   │   │   └──  tests
+│   │   ├──  luvit-meta
+│   │   │   ├──  config.json
+│   │   │   ├──  library
+│   │   │   ├──  LICENSE
+│   │   │   ├──  luvit-metadata.code-workspace
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  scrapers
+│   │   ├──  mason-lspconfig.nvim
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   ├──  selene.toml
+│   │   │   ├──  stylua.toml
+│   │   │   ├──  tests
+│   │   │   └──  vim.yml
+│   │   ├──  mason-tool-installer.nvim
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  neovim.yml
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  selene.toml
+│   │   ├──  mason.nvim
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  PACKAGES.md
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├── 󰒃 SECURITY.md
+│   │   │   ├──  selene.toml
+│   │   │   ├──  stylua.toml
+│   │   │   ├──  tests
+│   │   │   └──  vim.yml
+│   │   ├──  mini.nvim
+│   │   │   ├──  benchmarks
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  CODE_OF_CONDUCT.md
+│   │   │   ├──  colors
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  logo.png
+│   │   │   ├──  lua
+│   │   │   ├──  MAINTAINING.md
+│   │   │   ├──  Makefile
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  readmes
+│   │   │   ├──  scripts
+│   │   │   ├──  TESTING.md
+│   │   │   └──  tests
+│   │   ├──  nvim-cmp
+│   │   │   ├──  autoload
+│   │   │   ├──  doc
+│   │   │   ├──  init.sh
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  nvim-cmp-scm-1.rockspec
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  stylua.toml
+│   │   │   └──  utils
+│   │   ├──  nvim-lspconfig
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  doc
+│   │   │   ├──  flake.lock
+│   │   │   ├──  flake.nix
+│   │   │   ├──  LICENSE.md
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  neovim.yml
+│   │   │   ├──  nvim-lspconfig-scm-1.rockspec
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   ├──  selene.toml
+│   │   │   └──  test
+│   │   ├──  nvim-treesitter
+│   │   │   ├──  assets
+│   │   │   ├──  autoload
+│   │   │   ├──  contrib
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lockfile.json
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  parser
+│   │   │   ├──  parser-info
+│   │   │   ├──  plugin
+│   │   │   ├──  queries
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   └──  tests
+│   │   ├──  nvim-web-devicons
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  scripts
+│   │   ├──  plenary.nvim
+│   │   │   ├──  data
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  plenary.nvim-scm-1.rockspec
+│   │   │   ├──  plugin
+│   │   │   ├──  POPUP.md
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  rockspec.template
+│   │   │   ├──  scripts
+│   │   │   ├──  tests
+│   │   │   └──  TESTS_README.md
+│   │   ├──  telescope-fzf-native.nvim
+│   │   │   ├── 󱧼 build
+│   │   │   ├──  CMakeLists.txt
+│   │   │   ├──  CMakePresets.json
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├── 󰣞 src
+│   │   │   └──  test
+│   │   ├──  telescope-ui-select.nvim
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   └── 󰂺 README.md
+│   │   ├──  telescope.nvim
+│   │   │   ├──  autoload
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  data
+│   │   │   ├──  developers.md
+│   │   │   ├──  doc
+│   │   │   ├──  ftplugin
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   └──  telescope.nvim-scm-1.rockspec
+│   │   ├──  todo-comments.nvim
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  selene.toml
+│   │   │   ├──  stylua.toml
+│   │   │   └──  vim.toml
+│   │   ├──  tokyonight.nvim
+│   │   │   ├──  autoload
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  colors
+│   │   │   ├──  doc
+│   │   │   ├──  extras
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  NEWS.md
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   ├──  selene.toml
+│   │   │   ├──  stylua.toml
+│   │   │   ├──  tests
+│   │   │   └──  vim.toml
+│   │   ├──  vim-sleuth
+│   │   │   ├──  CONTRIBUTING.markdown
+│   │   │   ├──  doc
+│   │   │   ├──  plugin
+│   │   │   ├──  README.markdown
+│   │   │   └──  test
+│   │   └──  which-key.nvim
+│   │       ├──  CHANGELOG.md
+│   │       ├──  doc
+│   │       ├──  LICENSE
+│   │       ├──  lua
+│   │       ├──  NEWS.md
+│   │       ├──  plugin
+│   │       ├── 󰂺 README.md
+│   │       ├──  scripts
+│   │       ├──  selene.toml
+│   │       ├──  stylua.toml
+│   │       ├──  tests
+│   │       ├──  TODO.md
+│   │       └──  vim.toml
+│   ├──  mason
+│   │   ├──  bin
+│   │   │   ├── 󰡯 lua-language-server -> /home/pulkit/.local/share/nvim-personal/mason/packages/lua-language-server/lua-language-server
+│   │   │   └── 󰡯 stylua -> /home/pulkit/.local/share/nvim-personal/mason/packages/stylua/stylua
+│   │   ├──  packages
+│   │   │   ├──  lua-language-server
+│   │   │   └──  stylua
+│   │   ├──  registries
+│   │   │   └──  github
+│   │   ├──  share
+│   │   │   └──  mason-schemas
+│   │   └──  staging
+│   └── 󰡯 telescope_history
+├──  nvim.back
+│   ├──  base46
+│   │   ├── 󰡯 blankline
+│   │   ├── 󰡯 blink
+│   │   ├── 󰡯 cmp
+│   │   ├── 󰡯 colors
+│   │   ├── 󰡯 defaults
+│   │   ├── 󰡯 devicons
+│   │   ├── 󰡯 git
+│   │   ├── 󰡯 lsp
+│   │   ├── 󰡯 mason
+│   │   ├── 󰡯 nvcheatsheet
+│   │   ├── 󰡯 nvimtree
+│   │   ├── 󰡯 statusline
+│   │   ├── 󰡯 syntax
+│   │   ├── 󰡯 tbline
+│   │   ├── 󰡯 telescope
+│   │   ├── 󰡯 term
+│   │   ├── 󰡯 treesitter
+│   │   └── 󰡯 whichkey
+│   ├──  lazy
+│   │   ├──  base46
+│   │   │   ├── 󰡯 base16-LICENSE
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   └── 󰂺 README.md
+│   │   ├──  cmp-buffer
+│   │   │   ├──  after
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   └── 󰂺 README.md
+│   │   ├──  cmp-nvim-lsp
+│   │   │   ├──  after
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   └── 󰂺 README.md
+│   │   ├──  cmp-nvim-lua
+│   │   │   ├──  after
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   └── 󰂺 README.md
+│   │   ├──  cmp-path
+│   │   │   ├──  after
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   └── 󰂺 README.md
+│   │   ├──  cmp_luasnip
+│   │   │   ├──  after
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  stylua.toml
+│   │   ├──  conform.nvim
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  run_tests.sh
+│   │   │   ├──  scripts
+│   │   │   └──  tests
+│   │   ├──  friendly-snippets
+│   │   │   ├──  debug
+│   │   │   ├──  LICENSE
+│   │   │   ├──  package.json
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  snippets
+│   │   ├──  gitsigns.nvim
+│   │   │   ├──  AGENTS.md
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  doc
+│   │   │   ├──  etc
+│   │   │   ├──  gitsigns.nvim-scm-2.rockspec
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  release-please-config.json
+│   │   │   ├──  scripts
+│   │   │   └──  test
+│   │   ├──  indent-blankline.nvim
+│   │   │   ├──  after
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE.md
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  specs
+│   │   │   └──  stylua.toml
+│   │   ├──  lazy.nvim
+│   │   │   ├──  bootstrap.lua
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├── 󰡯 manifest
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   ├──  selene.toml
+│   │   │   ├──  stylua.toml
+│   │   │   ├──  tests
+│   │   │   ├──  TODO.md
+│   │   │   └──  vim.yml
+│   │   ├──  LuaSnip
+│   │   │   ├──  data
+│   │   │   ├──  deps
+│   │   │   ├──  doc
+│   │   │   ├──  DOC.md
+│   │   │   ├──  Examples
+│   │   │   ├──  flake.lock
+│   │   │   ├──  flake.nix
+│   │   │   ├──  ftplugin
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  syntax
+│   │   │   └──  tests
+│   │   ├──  mason.nvim
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  PACKAGES.md
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├── 󰒃 SECURITY.md
+│   │   │   ├──  selene.toml
+│   │   │   ├──  stylua.toml
+│   │   │   ├──  tests
+│   │   │   └──  vim.yml
+│   │   ├──  menu
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   └── 󰂺 README.md
+│   │   ├──  minty
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  plugin
+│   │   │   └── 󰂺 README.md
+│   │   ├──  NvChad
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   └── 󰂺 README.md
+│   │   ├──  nvim-autopairs
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  tests
+│   │   ├──  nvim-cmp
+│   │   │   ├──  autoload
+│   │   │   ├──  doc
+│   │   │   ├──  init.sh
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  nvim-cmp-scm-1.rockspec
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  stylua.toml
+│   │   │   └──  utils
+│   │   ├──  nvim-jdtls
+│   │   │   ├──  doc
+│   │   │   ├──  lemmy.sh
+│   │   │   ├──  LICENSE.txt
+│   │   │   ├──  lua
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  tests
+│   │   ├──  nvim-lspconfig
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  doc
+│   │   │   ├──  flake.lock
+│   │   │   ├──  flake.nix
+│   │   │   ├──  LICENSE.md
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  neovim.yml
+│   │   │   ├──  nvim-lspconfig-scm-1.rockspec
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   ├──  selene.toml
+│   │   │   └──  test
+│   │   ├──  nvim-tree.lua
+│   │   │   ├──  CHANGELOG.md
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  release-please-config.json
+│   │   │   └──  scripts
+│   │   ├──  nvim-treesitter
+│   │   │   ├──  assets
+│   │   │   ├──  autoload
+│   │   │   ├──  contrib
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lockfile.json
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  parser
+│   │   │   ├──  parser-info
+│   │   │   ├──  plugin
+│   │   │   ├──  queries
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   └──  tests
+│   │   ├──  nvim-web-devicons
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  scripts
+│   │   ├──  plenary.nvim
+│   │   │   ├──  data
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  plenary.nvim-scm-1.rockspec
+│   │   │   ├──  plugin
+│   │   │   ├──  POPUP.md
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  rockspec.template
+│   │   │   ├──  scripts
+│   │   │   ├──  tests
+│   │   │   └──  TESTS_README.md
+│   │   ├──  telescope.nvim
+│   │   │   ├──  CONTRIBUTING.md
+│   │   │   ├──  data
+│   │   │   ├──  developers.md
+│   │   │   ├──  doc
+│   │   │   ├──  ftplugin
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  Makefile
+│   │   │   ├──  plugin
+│   │   │   ├── 󰂺 README.md
+│   │   │   ├──  scripts
+│   │   │   └──  telescope.nvim-scm-1.rockspec
+│   │   ├──  ui
+│   │   │   ├──  colors
+│   │   │   ├──  doc
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   ├──  nvchad_types
+│   │   │   ├── 󰂺 README.md
+│   │   │   └──  scripts
+│   │   ├──  volt
+│   │   │   ├──  LICENSE
+│   │   │   ├──  lua
+│   │   │   └── 󰂺 README.md
+│   │   └──  which-key.nvim
+│   │       ├──  CHANGELOG.md
+│   │       ├──  doc
+│   │       ├──  LICENSE
+│   │       ├──  lua
+│   │       ├──  NEWS.md
+│   │       ├──  plugin
+│   │       ├── 󰂺 README.md
+│   │       ├──  scripts
+│   │       ├──  selene.toml
+│   │       ├──  stylua.toml
+│   │       ├──  tests
+│   │       ├──  TODO.md
+│   │       └──  vim.yml
+│   └──  nvnotify1
+├──  oculante
+│   ├──  config.json
+│   └──  config_volatile.json
+├──  oss.krtirtho.spotube
+│   ├──  libCachedImageData.json
+│   ├──  oss.krtirtho.spotube.skip_segments.v1.hive
+│   ├──  oss.krtirtho.spotube.skip_segments.v1.lock
+│   ├──  oss.krtirtho.spotube.source_matches.v1.hive
+│   ├──  oss.krtirtho.spotube.source_matches.v1.lock
+│   ├──  shared_preferences.json
+│   ├──  spotube-8bb40495-b00e-4f1b-950f-cb31e23bf9d4.hive
+│   ├──  spotube-8bb40495-b00e-4f1b-950f-cb31e23bf9d4.lock
+│   ├──  spotube_cache.hive
+│   └──  spotube_cache.lock
+├──  pipx
+│   ├──  py
+│   │   └──  CACHEDIR.TAG
+│   ├──  shared
+│   │   ├──  bin
+│   │   │   ├── 󰡯 activate
+│   │   │   ├──  activate.csh
+│   │   │   ├──  activate.fish
+│   │   │   ├──  Activate.ps1
+│   │   │   ├── 󰡯 pip
+│   │   │   ├── 󰡯 pip3
+│   │   │   ├──  pip3.13
+│   │   │   ├── 󰡯 python -> python3.13
+│   │   │   ├── 󰡯 python3 -> python3.13
+│   │   │   └──  python3.13 -> /usr/bin/python3.13
+│   │   ├──  include
+│   │   │   └──  python3.13
+│   │   ├──  lib
+│   │   │   └──  python3.13
+│   │   ├──  lib64 -> lib
+│   │   └──  pyvenv.cfg
+│   └──  venvs
+│       ├──  httpx
+│       │   ├──  bin
+│       │   ├──  include
+│       │   ├──  lib
+│       │   ├──  lib64 -> lib
+│       │   ├──  pipx_metadata.json
+│       │   └──  pyvenv.cfg
+│       └──  yewtube
+│           ├──  bin
+│           ├──  include
+│           ├──  lib
+│           ├──  lib64 -> lib
+│           ├──  pipx_metadata.json
+│           ├──  pyvenv.cfg
+│           └──  share
+├──  pnpm
+│   └──  store
+│       └──  v10
+│           ├──  files
+│           ├──  https+++codeload.github.com+electron+node-gyp+tar.gz+06b29aafb7708acef8b3669835c8a7857ebc92d2
+│           ├──  https+++codeload.github.com+OpenAsar+arrpc+tar.gz+2234e9c9111f4c42ebcc3aa6a2215bfd979ee_02811e00bc7ccfdd7add7d81c72235e5
+│           ├──  index
+│           └──  tmp
+├──  qBittorrent
+│   ├──  BT_backup
+│   │   ├──  7595e304dd59b465d55dc78d1c25d07632b9227f.fastresume
+│   │   ├──  7595e304dd59b465d55dc78d1c25d07632b9227f.torrent
+│   │   ├──  db10be17d586bf7c2053718b1427e7ee39dccd8f.fastresume
+│   │   ├──  db10be17d586bf7c2053718b1427e7ee39dccd8f.torrent
+│   │   └── 󰡯 queue
+│   ├──  GeoDB
+│   │   └──  dbip-country-lite.mmdb
+│   ├──  logs
+│   │   └──  qbittorrent.log
+│   └──  rss
+│       └──  articles
+│           └──  storage.lock
+├──  qutebrowser
+│   ├── 󰡯 cmd-history
+│   ├──  greasemonkey
+│   ├──  history.sqlite
+│   ├──  qutebrowser
+│   │   └──  QtWebEngine
+│   │       └──  Default
+│   ├──  sessions
+│   │   ├──  before-qt-515
+│   │   └──  default.yml
+│   ├── 󰡯 state
+│   └──  webengine
+│       ├──  blob_storage
+│       │   └──  fd5f2cc7-e887-4445-8dff-8383f9a0c072
+│       ├── 󰡯 Cookies
+│       ├── 󰡯 Cookies-journal
+│       ├──  DawnGraphiteCache
+│       │   ├── 󰡯 data_0
+│       │   ├── 󰡯 data_1
+│       │   ├── 󰡯 data_2
+│       │   ├── 󰡯 data_3
+│       │   └── 󰡯 index
+│       ├──  DawnWebGPUCache
+│       │   ├── 󰡯 data_0
+│       │   ├── 󰡯 data_1
+│       │   ├── 󰡯 data_2
+│       │   ├── 󰡯 data_3
+│       │   └── 󰡯 index
+│       ├── 󰡯 Favicons
+│       ├── 󰡯 Favicons-journal
+│       ├──  GPUCache
+│       │   ├── 󰡯 data_0
+│       │   ├── 󰡯 data_1
+│       │   ├── 󰡯 data_2
+│       │   ├── 󰡯 data_3
+│       │   └── 󰡯 index
+│       ├── 󰡯 History
+│       ├── 󰡯 History-journal
+│       ├──  'Local Storage'
+│       │   └──  leveldb
+│       ├── 󰡯 'Network Persistent State'
+│       ├──  'Session Storage'
+│       │   ├──  000003.log
+│       │   ├── 󰡯 CURRENT
+│       │   ├──  LOCK
+│       │   ├──  LOG
+│       │   ├──  LOG.old
+│       │   └── 󰡯 MANIFEST-000001
+│       ├──  'Shared Dictionary'
+│       │   ├──  cache
+│       │   ├── 󰡯 db
+│       │   └── 󰡯 db-journal
+│       ├── 󰡯 SharedStorage
+│       ├── 󰡯 TransportSecurity
+│       ├── 󰡯 'Trust Tokens'
+│       ├── 󰡯 'Trust Tokens-journal'
+│       ├──  user_prefs.json
+│       └── 󰡯 'Visited Links'
+├──  recently-used.xbel
+├──  remoteview
+├──  sddm
+│   ├──  wayland-session.log
+│   └──  xorg-session.log
+├──  spotify-launcher
+│   ├──  install
+│   │   └──  usr
+│   │       ├──  bin
+│   │       └──  share
+│   └──  state.json
+├──  supertuxkart
+│   ├──  addons
+│   │   ├── 󰗀 addons.xml
+│   │   ├── 󰗀 addons_installed.xml
+│   │   ├──  icons
+│   │   ├── 󰗀 online_news.xml
+│   │   ├── 󰇚 online_news.xml.part
+│   │   └──  tmp
+│   ├──  grandprix
+│   ├──  replay
+│   └──  screenshots
+├──  torbrowser
+│   ├──  gnupg_homedir
+│   │   ├──  private-keys-v1.d
+│   │   ├── 󰯄 pubring.kbx
+│   │   ├──  pubring.kbx~
+│   │   └── 󰦝 trustdb.gpg
+│   └──  tbb
+│       └──  x86_64
+│           └──  tor-browser
+├──  Trash
+│   ├──  files
+│   │   ├──  Counter.jsx
+│   │   ├──  DisplayCount.jsx
+│   │   ├──  hero.png
+│   │   ├── 󰡯 internship-ppt
+│   │   ├──  'NativeAuscultationAudio copy.ts'
+│   │   ├──  'QGIS ML techniques.md'
+│   │   ├── 󰕙 react.svg
+│   │   ├──  sin-of-lust.jpeg
+│   │   └── 󰕙 vite.svg
+│   └──  info
+│       ├──  Counter.jsx.trashinfo
+│       ├──  DisplayCount.jsx.trashinfo
+│       ├──  hero.png.trashinfo
+│       ├──  internship-ppt.trashinfo
+│       ├──  'NativeAuscultationAudio copy.ts.trashinfo'
+│       ├──  'QGIS ML techniques.md.trashinfo'
+│       ├──  react.svg.trashinfo
+│       ├──  sin-of-lust.jpeg.trashinfo
+│       └──  vite.svg.trashinfo
+├──  user-places.xbel
+├──  user-places.xbel.bak
+├──  user-places.xbel.tbcache
+├──  vlc
+│   └──  ml.xspf
+├──  zathura
+│   └──  bookmarks.sqlite
+└──  zoxide
+    └──  db.zo
+
+-----------------------------------------------------------------------------------------------------
+
+> cd .local/bin
+> lt
+ .
+├── 󰡯 fortune -> /home/pulkit/.local/share/pipx/venvs/fortune-cookie-generator-demo/bin/fortune
+├──  fortune.db
+├── 󰡯 httpx -> /home/pulkit/.local/share/pipx/venvs/httpx/bin/httpx
+├──  start-kmonad-reddragon.sh
+├──  watch-reddragon.sh
+└── 󰡯 yt -> /home/pulkit/.local/share/pipx/venvs/yewtube/bin/yt
