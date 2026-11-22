@@ -1,0 +1,42 @@
+❯ cd ~/.config/waybar/
+❯ lt
+ .
+├──  config.ctl
+├──  config.jsonc
+├──  config.jsonc.hyprlang.bak
+├──  modules
+│   ├──  backlight.jsonc
+│   ├──  battery.jsonc
+│   ├──  bluetooth.jsonc
+│   ├──  cava.jsonc
+│   ├──  cliphist.jsonc
+│   ├──  clock.jsonc
+│   ├──  cpu.jsonc
+│   ├──  cpuinfo.jsonc
+│   ├──  footer.jsonc
+│   ├──  gpuinfo.jsonc
+│   ├──  header.jsonc
+│   ├──  idle_inhibitor.jsonc
+│   ├──  keybindhint.jsonc
+│   ├──  language.jsonc
+│   ├──  memory.jsonc
+│   ├──  mpris.jsonc
+│   ├──  network.jsonc
+│   ├──  notifications.jsonc
+│   ├──  power.jsonc
+│   ├──  privacy.jsonc
+│   ├──  pulseaudio.jsonc
+│   ├──  spotify.jsonc
+│   ├──  style.css
+│   ├──  taskbar.jsonc
+│   ├──  theme.jsonc
+│   ├──  tray.jsonc
+│   ├──  updates.jsonc
+│   ├──  updates.jsonc.hyprlang.bak
+│   ├──  wallchange.jsonc
+│   ├──  wbar.jsonc
+│   ├──  window.jsonc
+│   ├──  workspaces.jsonc
+│   └──  workspaces.jsonc.hyprlang.bak
+├──  style.css
+└──  theme.css
