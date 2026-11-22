@@ -25,7 +25,12 @@ for line in sys.stdin:
         cur = {"flags": flags}
     elif cur is not None and ":" in line:
         k, v = line.strip().split(":", 1)
-        cur[k] = v.strip()
+        v = v.strip()
+        if k == "flags":
+            # Hyprland 0.57+ lists flags as words ("locked, repeat") on their own line
+            words = {w.strip() for w in v.split(",")}
+            v = "".join(c for c, w in (("l", "locked"), ("r", "release"), ("e", "repeat")) if w in words)
+        cur[k] = v
         if k == "arg":
             got[(int(cur["modmask"]), cur["key"].lower(), cur["flags"])] += 1
             cur = None
