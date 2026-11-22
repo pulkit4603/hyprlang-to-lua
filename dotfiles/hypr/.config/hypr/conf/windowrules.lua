@@ -152,3 +152,5 @@ for namespace, effects in pairs(LAYERS) do
     end
     hl.layer_rule(rule)
 end
+
+hl.window_rule({ match = { class = ".*" }, suppress_event = "maximize" })

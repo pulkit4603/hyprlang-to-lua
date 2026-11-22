@@ -22,8 +22,11 @@ hl.curve("liner", { type = "bezier", points = { { 1, 1 }, { 1, 1 } } })
 hl.curve("snap", { type = "spring", mass = 1, stiffness = 90, damping = 18 })
 
 hl.animation({ leaf = "windows", enabled = true, speed = 6, spring = "snap", style = "slide" })
-hl.animation({ leaf = "windowsIn", enabled = true, speed = 6, spring = "snap", style = "popin 98%" })
-hl.animation({ leaf = "windowsMove", enabled = true, speed = 5, spring = "snap", style = "slide" })
+hl.curve("inc", { type = "bezier", points = { {0.23,1},{0.32,1} } })
+hl.animation({ leaf = "windowsIn", enabled = true, speed = 3, bezier = "inc", style = "popin 60%" })
+hl.animation({ leaf = "fadeIn", enabled = true, speed = 3, bezier = "inc" })
+hl.curve("mv", { type = "bezier", points = { {0.23,1},{0.32,1} } })
+hl.animation({ leaf = "windowsMove", enabled = true, speed = 3, bezier = "mv", style = "slide" })
 
 -- closing: a short fade (~150ms) instead of vanishing instantly
 hl.animation({ leaf = "windowsOut", enabled = true, speed = 1.5, bezier = "winOut", style = "popin 100%" })
