@@ -1,0 +1,127 @@
+0	F12	
+0	F11	
+64	Q	
+8	F4	
+64	Delete	
+64	W	
+64	G	
+8	Return	
+64	L	
+65	F	
+64	Backspace	
+12	W	
+64	Equal	
+64	T	
+64	E	
+64	C	
+64	F	
+64	S	
+64	D	
+64	N	
+5	Escape	
+64	Y	
+64	B	
+64	A	
+64	Tab	
+65	E	
+0	F1	l
+0	F2	le
+0	F3	le
+0	XF86AudioMute	l
+0	XF86AudioMicMute	l
+0	XF86AudioLowerVolume	le
+0	XF86AudioRaiseVolume	le
+0	XF86AudioPlay	l
+0	XF86AudioPause	l
+0	XF86AudioNext	l
+0	XF86AudioPrev	l
+0	XF86MonBrightnessUp	le
+0	XF86MonBrightnessDown	le
+68	H	
+68	L	
+12	Up	
+12	Down	
+12	Right	
+12	Left	
+64	P	
+68	P	
+72	P	
+0	Print	
+72	G	
+72	Right	
+72	Left	
+72	Up	
+72	Down	
+65	R	
+65	T	
+65	A	
+65	W	
+64	V	
+64	K	
+64	Left	
+64	Right	
+64	Up	
+64	Down	
+8	Tab	
+64	1	
+64	2	
+64	3	
+64	4	
+64	5	
+64	6	
+64	7	
+64	8	
+64	9	
+64	0	
+68	Right	
+68	Left	
+68	Down	
+65	Right	e
+65	Left	e
+65	Up	e
+65	Down	e
+65	1	
+65	2	
+65	3	
+65	4	
+65	5	
+65	6	
+65	7	
+65	8	
+65	9	
+65	0	
+76	Right	
+76	Left	
+69	Left	
+69	Right	
+69	Up	
+69	Down	
+64	mouse_down	
+64	mouse_up	
+64	mouse:272	m
+64	mouse:273	m
+64	Z	m
+64	X	m
+72	S	
+72	D	
+72	K	
+72	N	
+72	C	
+72	R	
+65	S	
+65	D	
+65	K	
+65	N	
+65	C	
+64	J	
+72	1	
+72	2	
+72	3	
+72	4	
+72	5	
+72	6	
+72	7	
+72	8	
+72	9	
+72	0	
+0	F6	

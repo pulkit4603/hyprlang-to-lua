@@ -1,0 +1,2 @@
+# keep Linux line endings: shell scripts and Lua break with Windows (CRLF) endings
+* text eol=lf
