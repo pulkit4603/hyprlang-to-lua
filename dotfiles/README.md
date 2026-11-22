@@ -61,7 +61,7 @@ back on.
 **Performance:**
 - Wallpaper hashes are cached (`~/.cache/hyde/wallhash.cache`), so Super+Alt+←/→
   only hashes new or changed images.
-- `render.direct_scanout = 2` and `misc.vrr = 2` let fullscreen games and video skip compositing.
+- `render.direct_scanout = 2` and `misc.vrr = 2` let fullscreen games skip compositing (VRR also covers fullscreen video).
 - The LG monitor runs at 99.95 Hz.
 - Auto gamemode switches effects off while a game is fullscreen, and leaves waybar alone.
 

@@ -23,28 +23,48 @@ fi
 
 #// define functions
 
+# Thumbnails are always written as PNG (the png: prefix). Some ImageMagick
+# 7.1.2 builds write unreadable JPEGs, and .thmb kept the input's format, so
+# every .jpg wallpaper silently lost its colours. Unreadable thumbnails and
+# missing/incomplete colour files are rebuilt; wallbash errors go to
+# ~/.cache/hyde/wallbash.log instead of being thrown away.
+
+fn_img_ok()
+{
+    [ -s "${1}" ] && magick identify -quiet "${1}" > /dev/null 2>&1
+}
+
 fn_wallcache()
 {
     local x_hash="${1}"
     local x_wall="${2}"
-    [ ! -e "${thmbDir}/${x_hash}.thmb" ] && magick "${x_wall}"[0] -strip -resize 1000 -gravity center -extent 1000 -quality 90 "${thmbDir}/${x_hash}.thmb"
-    [ ! -e "${thmbDir}/${x_hash}.sqre" ] && magick "${x_wall}"[0] -strip -thumbnail 500x500^ -gravity center -extent 500x500 "${thmbDir}/${x_hash}.sqre"
-    [ ! -e "${thmbDir}/${x_hash}.blur" ] && magick "${x_wall}"[0] -strip -scale 10% -blur 0x3 -resize 100% "${thmbDir}/${x_hash}.blur"
-    [ ! -e "${thmbDir}/${x_hash}.quad" ] && magick "${thmbDir}/${x_hash}.sqre" \( -size 500x500 xc:white -fill "rgba(0,0,0,0.7)" -draw "polygon 400,500 500,500 500,0 450,0" -fill black -draw "polygon 500,500 500,0 450,500" \) -alpha Off -compose CopyOpacity -composite "${thmbDir}/${x_hash}.png" && mv "${thmbDir}/${x_hash}.png" "${thmbDir}/${x_hash}.quad"
-    { [ ! -e "${dcolDir}/${x_hash}.dcol" ] || [ "$(wc -l < "${dcolDir}/${x_hash}.dcol")" -ne 89 ] ;} && "${scrDir}/wallbash.sh" --custom "${wallbashCustomCurve}" "${thmbDir}/${x_hash}.thmb" "${dcolDir}/${x_hash}" &> /dev/null
+    local force="${3:-}"
+    local t="${thmbDir}/${x_hash}"
+    local d="${dcolDir}/${x_hash}"
+    local log="${cacheDir}/wallbash.log"
+
+    { [ -n "${force}" ] || ! fn_img_ok "${t}.thmb" ;} && magick "${x_wall}"[0] -strip -resize 1000 -gravity center -extent 1000 png:"${t}.thmb"
+    { [ -n "${force}" ] || ! fn_img_ok "${t}.sqre" ;} && magick "${x_wall}"[0] -strip -thumbnail 500x500^ -gravity center -extent 500x500 png:"${t}.sqre"
+    { [ -n "${force}" ] || ! fn_img_ok "${t}.blur" ;} && magick "${x_wall}"[0] -strip -scale 10% -blur 0x3 -resize 100% png:"${t}.blur"
+    { [ -n "${force}" ] || ! fn_img_ok "${t}.quad" ;} && magick "${t}.sqre" \( -size 500x500 xc:white -fill "rgba(0,0,0,0.7)" -draw "polygon 400,500 500,500 500,0 450,0" -fill black -draw "polygon 500,500 500,0 450,500" \) -alpha Off -compose CopyOpacity -composite png:"${t}.png" && mv "${t}.png" "${t}.quad"
+
+    if [ -n "${force}" ] || [ ! -e "${d}.dcol" ] || [ "$(wc -l < "${d}.dcol")" -ne 89 ] ; then
+        echo "== $(date '+%F %T') ${x_wall}" >> "${log}"
+        "${scrDir}/wallbash.sh" --custom "${wallbashCustomCurve}" "${t}.thmb" "${d}" >> "${log}" 2>&1
+        # fall back to the original image if the thumbnail didn't work
+        if [ ! -e "${d}.dcol" ] || [ "$(wc -l < "${d}.dcol")" -ne 89 ] ; then
+            echo "   retrying with the original image" >> "${log}"
+            "${scrDir}/wallbash.sh" --custom "${wallbashCustomCurve}" "${x_wall}" "${d}" >> "${log}" 2>&1
+        fi
+    fi
 }
 
 fn_wallcache_force()
 {
-    local x_hash="${1}"
-    local x_wall="${2}"
-    magick "${x_wall}"[0] -strip -resize 1000 -gravity center -extent 1000 -quality 90 "${thmbDir}/${x_hash}.thmb"
-    magick "${x_wall}"[0] -strip -thumbnail 500x500^ -gravity center -extent 500x500 "${thmbDir}/${x_hash}.sqre"
-    magick "${x_wall}"[0] -strip -scale 10% -blur 0x3 -resize 100% "${thmbDir}/${x_hash}.blur"
-    magick "${thmbDir}/${x_hash}.sqre" \( -size 500x500 xc:white -fill "rgba(0,0,0,0.7)" -draw "polygon 400,500 500,500 500,0 450,0" -fill black -draw "polygon 500,500 500,0 450,500" \) -alpha Off -compose CopyOpacity -composite "${thmbDir}/${x_hash}.png" && mv "${thmbDir}/${x_hash}.png" "${thmbDir}/${x_hash}.quad"
-    "${scrDir}/wallbash.sh" --custom "${wallbashCustomCurve}" "${thmbDir}/${x_hash}.thmb" "${dcolDir}/${x_hash}" &> /dev/null
+    fn_wallcache "${1}" "${2}" force
 }
 
+export -f fn_img_ok
 export -f fn_wallcache
 export -f fn_wallcache_force
 

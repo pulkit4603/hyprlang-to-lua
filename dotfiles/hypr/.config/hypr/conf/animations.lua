@@ -18,8 +18,8 @@ hl.curve("winOut", { type = "bezier", points = { { 0.5, 0 }, { 0, 1 } } })
 hl.curve("liner", { type = "bezier", points = { { 1, 1 }, { 1, 1 } } })
 
 -- a quick spring that settles with almost no bounce
--- (more stiffness = faster, more dampening = less bounce)
-hl.curve("snap", { type = "spring", mass = 1, stiffness = 90, dampening = 18 })
+-- (more stiffness = faster, more damping = less bounce)
+hl.curve("snap", { type = "spring", mass = 1, stiffness = 90, damping = 18 })
 
 hl.animation({ leaf = "windows", enabled = true, speed = 6, spring = "snap", style = "slide" })
 hl.animation({ leaf = "windowsIn", enabled = true, speed = 6, spring = "snap", style = "popin 98%" })

@@ -27,8 +27,8 @@ hl.config({
     },
 
     render = {
-        -- fullscreen games/videos go straight to the screen when possible
-        -- (2 = only for windows that say they're a game or video)
+        -- fullscreen games go straight to the screen when possible
+        -- (2 = only for windows that say they're a game)
         direct_scanout = 2,
     },
 

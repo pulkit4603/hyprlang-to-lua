@@ -34,7 +34,32 @@ local function load(name)
         hl.exec_cmd("notify-send -u critical 'HyDE theme error' " .. require("conf.hyde").q(path .. ": " .. tostring(data)))
         return {}
     end
-    return type(data) == "table" and data or {}
+    if type(data) ~= "table" then
+        return {}
+    end
+    -- a template filled without colour data gives "rgba(ff)" or "prefer-";
+    -- ignore such a file entirely (the theme's own colours stay in effect)
+    local bad = nil
+    local function check(v)
+        if type(v) == "table" then
+            for _, x in pairs(v) do
+                check(x)
+            end
+        elseif type(v) == "string" then
+            local hex = v:match("^rgba?%((.*)%)$")
+            if hex and not (hex:match("^%x%x%x%x%x%x%x%x$") or hex:match("^%x%x%x%x%x%x$")) then
+                bad = bad or v
+            elseif v:match("'prefer%-'") then
+                bad = bad or v
+            end
+        end
+    end
+    check(data)
+    if bad then
+        hl.exec_cmd("notify-send -u critical 'HyDE theme' " .. require("conf.hyde").q(name .. ".lua has invalid colours (" .. bad .. "), ignored it. Change wallpaper to regenerate."))
+        return {}
+    end
+    return data
 end
 
 local function layers()

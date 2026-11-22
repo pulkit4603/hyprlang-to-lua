@@ -19,6 +19,15 @@ if [ ! -f "${wallbashOut}" ] ; then
     "${scrDir}/swwwallcache.sh" -w "${wallbashImg}" &> /dev/null
 fi
 
+# Without colour data every template would be filled with empty values
+# (rgba(ff), broken rofi/waybar themes), so stop here and leave the last
+# good colours in place.
+if [ ! -s "${wallbashOut}" ] || ! grep -q '^dcol_pry1=' "${wallbashOut}" ; then
+    echo "Error: no colour data for ${wallbashImg} (${wallbashOut}); run wallbash.sh on it to see why"
+    notify-send -a "t1" -u critical "wallbash failed" "No colour data for $(basename "${wallbashImg}"), colours not changed" 2> /dev/null
+    exit 1
+fi
+
 set -a
 source "${wallbashOut}"
 if [ -f "${hydeThemeDir}/theme.dcol" ] && [ "${enableWallDcol}" -eq 0 ]  ; then
