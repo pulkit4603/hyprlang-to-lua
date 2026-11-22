@@ -1,0 +1,9 @@
+[Unit]
+Description=Clipboard history: images
+PartOf=hyde-session.target graphical-session.target
+After=hyde-session.target
+
+[Service]
+ExecStart=/usr/bin/wl-paste --type image --watch cliphist store
+Restart=on-failure
+RestartSec=2

@@ -1,0 +1,9 @@
+[Unit]
+Description=HyDE battery notifications
+PartOf=hyde-session.target graphical-session.target
+After=hyde-session.target
+
+[Service]
+ExecStart=%h/.local/share/bin/batterynotify.sh
+Restart=on-failure
+RestartSec=2

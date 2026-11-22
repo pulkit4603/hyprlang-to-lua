@@ -1,0 +1,5 @@
+# Started by Hyprland (conf/autostart.lua) once it's up, stopped when it exits.
+# Every hyde-*.service below is part of it.
+[Unit]
+Description=HyDE session helpers (tray applets, clipboard, kmonad, ...)
+Wants=hyde-polkit.service hyde-blueman-applet.service hyde-nm-applet.service hyde-udiskie.service hyde-cliphist-text.service hyde-cliphist-image.service hyde-batterynotify.service hyde-kmonad.service hyde-reddragon-watch.service

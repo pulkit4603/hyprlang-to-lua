@@ -1,0 +1,9 @@
+[Unit]
+Description=kmonad (laptop keyboard layout)
+PartOf=hyde-session.target graphical-session.target
+After=hyde-session.target
+
+[Service]
+ExecStart=/usr/bin/kmonad %h/.config/kmonad/conf.kbd
+Restart=on-failure
+RestartSec=2

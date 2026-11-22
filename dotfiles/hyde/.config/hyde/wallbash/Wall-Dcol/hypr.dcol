@@ -1,0 +1,30 @@
+$HOME/.config/hypr/themes/colors.lua
+-- wallbash colours (template; swwwallbash.sh fills in <wallbash_*> and writes ~/.config/hypr/themes/colors.lua)
+-- Plain data, applied by ~/.config/hypr/conf/theme.lua.
+return {
+    gsettings = {
+        "gsettings set org.gnome.desktop.interface gtk-theme 'Wallbash-Gtk'",
+        "gsettings set org.gnome.desktop.interface color-scheme 'prefer-<wallbash_mode>'",
+    },
+    config = {
+        general = {
+            col = {
+                active_border = { colors = { "rgba(<wallbash_pry4>ff)", "rgba(<wallbash_4xa1>ff)" }, angle = 45 },
+                inactive_border = { colors = { "rgba(<wallbash_pry1>ff)", "rgba(<wallbash_pry2>ff)" }, angle = 45 },
+            },
+        },
+        group = {
+            col = {
+                border_active = { colors = { "rgba(<wallbash_pry4>ff)", "rgba(<wallbash_4xa1>ff)" }, angle = 45 },
+                border_inactive = { colors = { "rgba(<wallbash_pry1>cc)", "rgba(<wallbash_pry2>cc)" }, angle = 45 },
+                border_locked_active = { colors = { "rgba(<wallbash_txt3>ff)", "rgba(<wallbash_txt4>ff)" }, angle = 45 },
+                border_locked_inactive = { colors = { "rgba(<wallbash_txt1>cc)", "rgba(<wallbash_txt2>cc)" }, angle = 45 },
+            },
+        },
+        decoration = {
+            glow = {
+                color = "rgba(<wallbash_pry4>33)",
+            },
+        },
+    },
+}

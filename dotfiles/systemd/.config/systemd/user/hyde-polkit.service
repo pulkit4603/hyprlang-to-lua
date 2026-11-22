@@ -1,0 +1,9 @@
+[Unit]
+Description=Polkit authentication agent (polkit-gnome)
+PartOf=hyde-session.target graphical-session.target
+After=hyde-session.target
+
+[Service]
+ExecStart=/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+Restart=on-failure
+RestartSec=2

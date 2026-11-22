@@ -1,0 +1,61 @@
+$HOME/.config/hypr/themes/theme.lua|> $HOME/.config/hypr/themes/colors.lua
+-- HyDE theme: Frosted Glass
+-- Plain data, applied by ~/.config/hypr/conf/theme.lua.
+--  ___________      _________                        __
+--  \__    ___/      \_   ___ \_______ ___.__._______/  |_
+--   |    |  ______ /    \  \/\_  __ <   |  |\____ \   __\
+--   |    | /_____/ \     \____|  | \/\___  ||  |_> >  |
+--   |____|          \______  /|__|   / ____||   __/|__|
+--                          \/        \/     |__|
+return {
+    gsettings = {
+        "gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-blue'",
+        "gsettings set org.gnome.desktop.interface gtk-theme 'Frosted-Glass'",
+        "gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'",
+    },
+    config = {
+        general = {
+            gaps_in = 4,
+            gaps_out = 10,
+            border_size = 2,
+            col = {
+                active_border = { colors = { "rgba(2770C0ff)", "rgba(1E4C84ff)" }, angle = 45 },
+                inactive_border = { colors = { "rgba(A44185cc)", "rgba(012339cc)" }, angle = 45 },
+            },
+            layout = "dwindle",
+            resize_on_border = true,
+        },
+        group = {
+            col = {
+                border_active = { colors = { "rgba(2770C0ff)", "rgba(1E4C84ff)" }, angle = 45 },
+                border_inactive = { colors = { "rgba(A44185cc)", "rgba(012339cc)" }, angle = 45 },
+                border_locked_active = { colors = { "rgba(2770C0ff)", "rgba(1E4C84ff)" }, angle = 45 },
+                border_locked_inactive = { colors = { "rgba(A44185cc)", "rgba(012339cc)" }, angle = 45 },
+            },
+        },
+        decoration = {
+            rounding = 13,
+            shadow = {
+                enabled = false,
+                offset = "0 0",
+                range = 15,
+                render_power = 1,
+                color = "0x80ffffff",
+            },
+            active_opacity = 0.75,
+            inactive_opacity = 0.75,
+            blur = {
+                enabled = true,
+                size = 4,
+                passes = 4,
+                new_optimizations = true,
+                ignore_opacity = true,
+                xray = false,
+            },
+            glow = {
+                color = "rgba(2770C033)",
+            },
+        },
+    },
+    blur_layers = { "waybar" },
+}
